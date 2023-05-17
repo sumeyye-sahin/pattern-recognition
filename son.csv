@@ -1,0 +1,705 @@
+id,A1_Score,A2_Score,A3_Score,A4_Score,A5_Score,A6_Score,A7_Score,A8_Score,A9_Score,A10_Score,age,gender,ethnicity,jundice,austim,contry_of_res,used_app_before,result,age_desc,relation,Class/ASD,y_pred,y_test
+1,1,1,1,1,0,0,1,1,0,0,26,f,White-European,no,no,United States,no,6,18 and more,Self,NO,0.6108777193397277,1
+2,1,1,0,1,0,0,0,1,0,1,24,m,Latino,no,yes,Brazil,no,5,18 and more,Self,NO,0.9414566422007212,1
+3,1,1,0,1,1,0,1,1,1,1,27,m,Latino,yes,yes,Spain,no,8,18 and more,Parent,YES,0.9601427666215183,1
+4,1,1,0,1,0,0,1,1,0,1,35,f,White-European,no,yes,United States,no,6,18 and more,Self,NO,0.9945732823840646,1
+5,1,0,0,0,0,0,0,1,0,0,40,f,?,no,no,Egypt,no,2,18 and more,?,NO,0.526910845164245,1
+6,1,1,1,1,1,0,1,1,1,1,36,m,Others,yes,no,United States,no,9,18 and more,Self,YES,0.817536078656719,1
+7,0,1,0,0,0,0,0,1,0,0,17,f,Black,no,no,United States,no,2,18 and more,Self,NO,0.9531242479103951,1
+8,1,1,1,1,0,0,0,0,1,0,64,m,White-European,no,no,New Zealand,no,5,18 and more,Parent,NO,0.9022708644316214,1
+9,1,1,0,0,1,0,0,1,1,1,29,m,White-European,no,no,United States,no,6,18 and more,Self,NO,0.9137806971384371,1
+10,1,1,1,1,0,1,1,1,1,0,17,m,Asian,yes,yes,Bahamas,no,8,18 and more,Health care professional,YES,0.9589073324045465,1
+11,1,1,1,1,1,1,1,1,1,1,33,m,White-European,no,no,United States,no,10,18 and more,Relative,YES,0.8126999356017819,1
+12,0,1,0,1,1,1,1,0,0,1,18,f,Middle Eastern ,no,no,Burundi,no,6,18 and more,Parent,NO,0.9202403430450075,1
+13,0,1,1,1,1,1,0,0,1,0,17,f,?,no,no,Bahamas,no,6,18 and more,?,NO,0.9666927872049409,1
+14,1,0,0,0,0,0,1,1,0,1,17,m,?,no,no,Austria,no,4,18 and more,?,NO,0.7398566829429536,1
+15,1,0,0,0,0,0,1,1,0,1,17,f,?,no,no,Argentina,no,4,18 and more,?,NO,0.9994507348128117,1
+16,1,1,0,1,1,0,0,1,0,1,18,m,Middle Eastern ,no,yes,New Zealand,no,6,18 and more,Parent,NO,0.8699429209074441,1
+17,1,0,0,0,0,0,1,1,1,1,31,m,Middle Eastern ,no,no,Jordan,no,5,18 and more,Self,NO,0.7169458224355099,1
+18,0,0,0,0,0,0,0,1,0,1,30,m,White-European,no,no,Ireland,no,2,18 and more,Self,NO,0.6206740439285562,1
+19,0,0,1,0,1,1,0,0,0,0,35,f,Middle Eastern ,no,yes,United Arab Emirates,no,3,18 and more,Self,NO,0.7782477065486615,1
+20,0,0,0,0,0,0,1,1,0,1,34,m,?,yes,no,United Arab Emirates,no,3,18 and more,?,NO,0.999510755737531,1
+21,0,1,1,1,0,0,0,0,0,0,38,m,?,no,no,United Arab Emirates,no,3,18 and more,?,NO,0.6222805141006532,1
+22,0,0,0,0,0,0,0,0,0,0,27,f,Black,no,no,United Arab Emirates,no,0,18 and more,Self,NO,0.9101386250699285,1
+23,0,0,0,1,0,0,1,1,1,1,27,m,Middle Eastern ,no,no,Afghanistan,no,5,18 and more,Self,NO,0.9392654671510053,1
+24,0,0,0,0,0,0,0,1,0,1,42,m,Middle Eastern ,yes,no,United Arab Emirates,no,2,18 and more,Relative,NO,0.7042143713691886,1
+25,1,1,1,1,0,0,0,1,0,0,43,m,?,no,no,Lebanon,no,5,18 and more,?,NO,0.9899063783622869,1
+26,0,1,1,0,0,0,0,1,0,0,24,f,?,yes,no,Afghanistan,no,3,18 and more,?,NO,0.9984884971208096,1
+27,0,0,0,0,0,0,0,1,0,0,40,m,Pasifika,yes,yes,United Arab Emirates,no,1,18 and more,Self,NO,0.9893956939823622,1
+28,0,0,0,0,0,0,0,1,0,0,40,m,Middle Eastern ,yes,yes,Afghanistan,no,1,18 and more,Parent,NO,0.6173053052869797,1
+29,0,0,0,0,0,0,0,1,0,0,48,m,Black,no,no,New Zealand,no,1,18 and more,Self,NO,0.5994133923310844,1
+30,0,1,1,0,0,0,0,0,1,1,31,m,Middle Eastern ,no,no,United Kingdom,no,4,18 and more,Self,NO,0.7627981122461411,1
+31,0,0,0,0,0,0,0,0,0,0,18,m,White-European,no,no,United Kingdom,no,0,18 and more,Self,NO,0.8228259660465228,1
+32,1,0,0,1,1,1,1,1,0,1,37,f,White-European,no,yes,United States,no,7,18 and more,Self,YES,0.9681260365399877,1
+33,1,1,0,0,0,0,1,0,0,1,55,f,Others,no,no,New Zealand,no,4,18 and more,Self,NO,0.9693876939167403,1
+34,1,1,1,1,1,1,1,1,1,1,18,f,White-European,yes,no,South Africa,no,10,18 and more,Self,YES,0.9838581059841184,1
+35,1,1,1,1,1,1,1,1,1,1,18,f,White-European,no,no,South Africa,no,10,18 and more,Self,YES,0.8190383715437765,1
+36,0,0,1,0,0,0,0,0,0,0,55,m,White-European,no,no,New Zealand,no,1,18 and more,Self,NO,0.9438175046887697,1
+37,0,1,1,0,1,0,0,1,1,1,50,m,Middle Eastern ,no,no,United Arab Emirates,no,6,18 and more,Self,NO,0.6665368235033549,1
+38,1,0,1,1,1,1,0,0,1,0,34,f,White-European,no,no,New Zealand,no,6,18 and more,Self,NO,0.9998617765066796,1
+39,1,0,0,1,1,1,1,0,1,1,53,f,White-European,no,no,New Zealand,no,7,18 and more,Self,YES,0.9881697861292998,1
+40,1,0,1,1,0,1,1,1,1,1,35,f,White-European,no,yes,United States,no,8,18 and more,Self,YES,0.9856484598214257,1
+41,1,0,1,1,1,0,1,1,0,1,20,f,Latino,yes,no,Italy,no,7,18 and more,Self,YES,0.9995161421681925,1
+42,0,0,0,0,1,1,0,0,0,0,28,f,Asian,no,no,Pakistan,no,2,18 and more,Self,NO,0.9562743478258021,1
+43,0,0,1,1,0,0,0,0,0,1,34,f,Middle Eastern ,no,yes,Egypt,no,3,18 and more,Self,NO,0.8952807884028098,1
+44,0,1,1,1,0,0,0,0,0,1,36,f,White-European,yes,yes,United States,no,4,18 and more,Self,NO,0.5880642571832053,1
+45,1,1,1,1,1,1,0,1,0,1,27,f,White-European,no,no,New Zealand,no,8,18 and more,Self,YES,0.9730564916280946,1
+46,1,0,1,1,1,1,0,1,1,0,53,f,White-European,no,no,New Zealand,no,7,18 and more,Relative,YES,0.9996419895350552,1
+47,1,1,1,1,0,1,0,0,0,0,24,f,Pasifika,no,no,New Zealand,no,5,18 and more,Relative,NO,0.396034996592164,1
+48,0,0,1,1,1,0,1,0,0,0,24,m,Pasifika,no,no,New Zealand,no,4,18 and more,Relative,NO,0.6753558482030457,1
+49,0,1,1,0,0,1,0,0,0,0,55,m,White-European,no,no,New Zealand,no,3,18 and more,Relative,NO,0.9329485127752238,1
+50,1,1,0,0,0,1,1,1,0,1,30,f,Asian,no,no,Bangladesh,no,6,18 and more,Self,NO,0.9699186123101611,1
+51,1,0,0,1,0,0,0,1,0,0,21,f,Latino,no,no,Chile,no,3,18 and more,Self,NO,0.9210643643045517,1
+52,1,1,1,1,1,1,1,1,1,1,35,f,Black,no,no,France,no,10,18 and more,Parent,YES,0.834132165124575,1
+53,1,0,0,0,0,0,0,0,0,0,383,f,Pasifika,no,no,New Zealand,no,1,18 and more,Self,NO,0.9512900290506714,1
+54,1,0,1,1,1,1,1,1,0,1,21,m,Latino,no,yes,Brazil,no,8,18 and more,Self,YES,0.39106065282894753,1
+55,1,1,1,1,1,1,1,1,1,1,47,m,White-European,no,no,United States,no,10,18 and more,Self,YES,0.9996080795810429,1
+56,1,1,1,1,1,1,0,1,1,1,30,f,Asian,no,no,China,no,9,18 and more,Self,YES,0.9560747366574177,1
+57,1,0,1,1,1,1,0,1,1,1,28,f,White-European,no,no,Australia,no,8,18 and more,Self,YES,0.8119146591717581,1
+58,1,1,1,1,1,1,0,1,1,1,43,f,White-European,no,no,Australia,no,9,18 and more,Self,YES,0.9985875889734148,1
+59,1,0,0,0,1,0,0,1,0,0,32,f,South Asian,no,yes,Canada,no,3,18 and more,Self,NO,0.9879245650677189,1
+60,1,1,1,1,0,0,0,1,0,0,44,f,White-European,no,no,Australia,no,5,18 and more,Self,NO,0.7466066001586875,1
+61,1,0,1,1,1,1,1,1,0,1,20,f,Others,no,no,Canada,no,8,18 and more,Self,YES,0.0,1
+62,1,0,1,1,0,1,1,1,0,1,20,f,Others,no,no,Canada,yes,7,18 and more,Self,YES,0.6084324321000285,1
+63,0,0,0,0,0,0,0,0,0,0,?,m,?,no,no,Saudi Arabia,no,0,18 and more,?,NO,0.7191562565993634,1
+64,1,0,0,1,1,0,0,1,1,0,19,m,White-European,no,no,Australia,no,5,18 and more,Parent,NO,0.9603186646229788,1
+65,1,1,1,1,1,1,1,1,0,1,29,f,White-European,no,no,Australia,no,9,18 and more,Self,YES,0.9751717272405184,1
+66,1,0,1,0,0,0,0,1,0,0,21,m,Middle Eastern ,no,no,United States,no,3,18 and more,Self,NO,0.9796423356296594,1
+67,0,1,0,0,0,0,0,1,0,0,27,m,Middle Eastern ,no,no,France,no,2,18 and more,Parent,NO,0.9565811254028531,1
+68,1,0,1,0,1,1,1,1,0,0,21,m,Hispanic,no,no,United States,no,6,18 and more,Self,NO,0.9896948861400741,1
+69,1,0,0,0,1,0,1,0,0,1,35,m,Middle Eastern ,no,no,Saudi Arabia,no,4,18 and more,Self,NO,0.9026706103856758,1
+70,0,0,0,0,1,0,0,0,0,0,42,m,Black,no,no,New Zealand,no,1,18 and more,Self,NO,0.15156097404982272,1
+71,1,1,0,0,0,0,1,1,0,1,29,f,South Asian,no,no,New Zealand,no,5,18 and more,Self,NO,0.9408431002321586,1
+72,0,0,1,1,0,0,0,1,0,0,58,m,Asian,no,no,New Zealand,no,3,18 and more,Self,NO,0.9981671310164529,1
+73,1,0,1,1,0,0,1,1,0,1,21,m,Others,no,no,United States,no,6,18 and more,Self,NO,0.8268545943000847,1
+74,1,1,1,0,0,0,0,1,1,1,21,m,Others,no,no,United States,no,6,18 and more,Self,NO,0.9989688250049124,1
+75,0,0,1,1,1,0,0,1,1,1,37,f,White-European,no,yes,United States,no,6,18 and more,Self,NO,0.999812954512679,1
+76,1,1,0,1,1,1,1,1,0,0,21,m,Hispanic,no,no,United States,no,7,18 and more,Self,YES,0.998398515659221,1
+77,1,0,0,0,0,0,1,1,0,0,20,m,Middle Eastern ,no,no,United States,no,3,18 and more,Self,NO,0.9653222242779501,1
+78,1,1,0,1,1,1,1,1,1,0,33,f,Black,no,yes,United States,no,8,18 and more,Self,YES,0.9039901776228897,1
+79,1,0,0,1,1,0,0,0,0,1,20,m,Middle Eastern ,no,no,United States,no,4,18 and more,Self,NO,0.9752602091371803,1
+80,1,1,0,0,0,0,0,0,0,0,45,f,?,yes,no,Jordan,no,2,18 and more,?,NO,0.999242077717062,1
+81,0,0,1,1,0,0,1,1,0,1,32,m,?,yes,yes,Afghanistan,no,5,18 and more,?,NO,0.8349272617360932,1
+82,1,0,0,0,0,0,1,0,0,1,30,m,?,no,no,Jordan,no,3,18 and more,?,NO,0.9669064820646318,1
+83,1,1,1,1,1,1,1,1,1,1,33,f,White-European,no,yes,Netherlands,no,10,18 and more,Self,YES,0.743199300641544,1
+84,0,0,1,0,1,0,0,1,0,1,42,f,Middle Eastern ,no,no,Jordan,no,4,18 and more,Self,NO,0.5278279054841126,1
+85,1,1,0,0,0,0,0,0,0,0,17,f,White-European,no,no,New Zealand,no,2,18 and more,Self,NO,0.0,1
+86,1,0,0,0,0,0,0,1,0,1,27,f,Middle Eastern ,no,no,United States,no,3,18 and more,Self,NO,0.9969611852791698,1
+87,1,0,0,1,1,1,1,1,1,1,35,f,Middle Eastern ,no,yes,Afghanistan,no,8,18 and more,Parent,YES,0.43744219917902094,1
+88,1,0,0,0,0,0,0,0,0,0,37,m,White-European,no,no,United Kingdom,no,1,18 and more,Self,NO,0.9489213345641022,1
+89,1,0,0,0,0,0,0,1,1,1,30,f,White-European,no,yes,United Kingdom,no,4,18 and more,Self,NO,0.9999856219276582,1
+90,1,1,1,1,1,1,0,1,1,1,29,f,White-European,no,no,New Zealand,no,9,18 and more,Self,YES,0.27121554253443125,1
+91,1,0,1,1,0,0,0,0,0,1,17,f,White-European,no,yes,Romania,no,4,18 and more,Self,NO,0.8048070725345953,1
+92,0,1,0,0,1,0,1,0,0,1,?,f,?,no,no,Jordan,no,4,18 and more,?,NO,0.9637087028688819,1
+93,0,0,0,1,1,1,0,1,0,1,22,f,Pasifika,no,no,New Zealand,no,5,18 and more,Self,NO,0.7686785209876746,1
+94,1,1,1,0,1,1,1,0,1,1,19,f,Latino,no,yes,Brazil,no,8,18 and more,Self,YES,0.7159171473546867,1
+95,1,1,1,1,1,0,0,1,1,1,42,f,White-European,no,yes,Sweden,no,8,18 and more,Self,YES,0.7680828992528506,1
+96,1,1,0,0,0,0,0,1,0,1,37,f,White-European,no,no,United Kingdom,no,4,18 and more,Self,NO,0.918938226883069,1
+97,1,0,0,0,1,0,1,1,0,0,28,f,White-European,no,no,Australia,no,4,18 and more,Self,NO,0.9035672377916817,1
+98,1,0,0,1,1,0,1,0,0,0,22,m,Others,no,no,New Zealand,no,4,18 and more,Self,NO,0.9854291293427889,1
+99,1,1,0,0,0,0,0,1,0,0,26,f,Pasifika,no,no,Tonga,no,3,18 and more,Self,NO,0.9406921225123315,1
+100,0,0,0,0,0,0,0,0,1,0,21,m,Pasifika,no,no,Oman,no,1,18 and more,Self,NO,0.9546339781850041,1
+101,0,1,1,0,0,0,0,1,0,0,26,f,South Asian,no,no,India,no,3,18 and more,Self,NO,0.9999264435607146,1
+102,1,0,0,0,0,0,0,1,0,0,39,f,Asian,no,no,Philippines,no,2,18 and more,Self,NO,0.9825945354770774,1
+103,1,0,0,0,0,0,0,0,1,1,26,m,Asian,no,no,New Zealand,no,3,18 and more,Self,NO,0.9999756509837542,1
+104,1,1,0,0,1,0,1,1,0,0,26,m,Asian,no,no,India,no,5,18 and more,Self,NO,0.9477323004052138,1
+105,0,0,0,0,1,1,0,1,0,1,21,m,South Asian,no,no,India,no,4,18 and more,Self,NO,0.680880657890768,1
+106,0,0,0,0,0,0,0,0,0,0,25,m,Asian,no,no,India,no,0,18 and more,Self,NO,0.8198941456603951,1
+107,0,0,1,0,1,1,1,1,0,1,26,m,South Asian,no,no,New Zealand,no,6,18 and more,Self,NO,0.9109695373915015,1
+108,1,1,0,1,1,0,1,1,0,1,30,f,White-European,no,no,United States,no,7,18 and more,Self,YES,0.5928333475458158,1
+109,1,0,0,1,1,1,1,0,0,0,19,f,Asian,no,no,India,no,5,18 and more,Parent,NO,0.8792616724490449,1
+110,1,0,0,0,0,1,1,0,0,0,19,f,Asian,no,no,India,no,3,18 and more,Parent,NO,0.7331324133649977,1
+111,1,0,1,1,1,1,1,1,1,1,25,f,White-European,no,yes,New Zealand,no,9,18 and more,Self,YES,0.7550147321296424,1
+112,0,0,1,1,0,1,0,1,1,1,23,m,White-European,no,no,United Kingdom,no,6,18 and more,Self,NO,0.9957405124519143,1
+113,1,0,0,0,1,0,0,0,0,1,31,m,Asian,no,no,Sri Lanka,no,3,18 and more,Parent,NO,0.8215610873718654,1
+114,0,1,0,0,0,0,0,1,1,1,27,m,Asian,no,no,New Zealand,no,4,18 and more,Self,NO,0.5092306715509154,1
+115,1,1,0,1,1,1,1,1,0,1,29,f,Middle Eastern ,no,no,United Arab Emirates,no,8,18 and more,Self,YES,0.9913992592580253,1
+116,1,0,1,1,1,1,0,1,1,0,38,f,White-European,no,no,United Kingdom,no,7,18 and more,Parent,YES,0.9267796870322693,1
+117,1,1,1,1,1,1,0,1,0,1,23,f,White-European,no,no,United States,no,8,18 and more,Self,YES,0.7695810885141547,1
+118,1,1,1,0,1,0,1,1,0,0,27,m,White-European,no,no,United States,no,6,18 and more,Self,NO,0.9308892548325006,1
+119,1,1,1,1,1,1,0,1,1,1,27,f,White-European,no,no,Canada,no,9,18 and more,Self,YES,0.9967539932916728,1
+120,1,1,1,1,1,1,0,0,1,0,42,m,White-European,no,no,United States,no,7,18 and more,Self,YES,0.9234304596181135,1
+121,1,1,1,1,1,1,0,1,1,1,20,m,White-European,no,no,United Kingdom,no,9,18 and more,Self,YES,0.9927460215971999,1
+122,1,0,1,1,1,1,1,1,1,1,17,f,White-European,no,no,United States,no,9,18 and more,Self,YES,0.9933167985147748,1
+123,1,0,0,0,0,0,0,0,0,0,20,f,Black,no,no,Spain,no,1,18 and more,Self,NO,0.6559194752977433,1
+124,1,0,0,1,1,1,1,1,0,1,30,m,Asian,yes,no,Sierra Leone,no,7,18 and more,Self,YES,0.9583592239546211,1
+125,1,0,1,1,1,1,1,1,1,1,28,f,White-European,no,yes,Australia,no,9,18 and more,Self,YES,0.5496777928884857,1
+126,1,1,0,0,1,1,1,1,0,1,26,f,White-European,no,no,New Zealand,no,7,18 and more,Self,YES,0.8052035345218987,1
+127,0,0,0,0,0,0,0,0,0,0,26,f,White-European,no,no,Australia,no,0,18 and more,Self,NO,0.9581903806079984,1
+128,1,0,0,1,1,1,0,1,0,1,31,m,Middle Eastern ,no,yes,Canada,no,6,18 and more,Self,NO,0.996480494348428,1
+129,1,0,1,1,0,0,1,0,0,1,40,f,White-European,no,no,United Kingdom,no,5,18 and more,Self,NO,0.9776951626321282,1
+130,1,0,0,0,1,0,0,0,1,1,39,f,White-European,no,yes,Ireland,no,4,18 and more,Relative,NO,0.9878726960424461,1
+131,1,1,0,0,0,0,0,1,0,0,18,f,White-European,no,no,United States,no,3,18 and more,Self,NO,0.875963751596295,1
+132,1,0,0,0,0,0,0,1,0,1,24,m,Black,no,no,Ethiopia,no,3,18 and more,Self,NO,0.9340211874411132,1
+133,1,1,0,0,0,0,0,1,0,0,23,m,South Asian,no,no,India,no,3,18 and more,Self,NO,0.9556918592817932,1
+134,1,0,1,1,0,0,0,1,0,1,24,m,Asian,no,no,India,no,5,18 and more,Self,NO,0.9167910541799162,1
+135,0,1,0,0,1,1,0,1,1,0,24,m,Asian,no,no,New Zealand,no,5,18 and more,Self,NO,0.8092071729010326,1
+136,1,0,1,1,0,0,0,1,1,1,27,m,Asian,no,no,New Zealand,no,6,18 and more,Self,NO,0.933287060855167,1
+137,0,1,1,0,0,1,0,0,1,1,24,m,Asian,no,no,New Zealand,no,5,18 and more,Self,NO,0.8271687362767297,1
+138,0,0,0,0,1,0,0,0,0,1,25,m,Asian,no,no,India,no,2,18 and more,Self,NO,0.9994442376457917,1
+139,1,0,0,0,0,0,1,0,0,1,22,m,Asian,no,no,New Zealand,no,3,18 and more,Self,NO,0.9437577026323763,1
+140,0,1,0,0,0,0,0,0,0,1,40,f,Asian,no,no,New Zealand,no,2,18 and more,Self,NO,0.9266911750817917,1
+141,0,0,1,1,0,0,0,1,0,1,23,m,Asian,no,no,India,no,4,18 and more,Self,NO,0.5275065905959517,1
+142,1,0,0,0,0,0,0,1,0,0,29,m,South Asian,no,no,India,no,2,18 and more,Self,NO,0.9762104126840665,1
+143,1,0,1,0,0,0,0,1,0,0,25,m,Asian,no,no,India,no,3,18 and more,Self,NO,0.9658002428120813,1
+144,1,0,0,1,1,0,0,1,0,0,27,m,Asian,no,no,India,no,4,18 and more,Self,NO,0.892370002589647,1
+145,0,0,0,0,0,0,0,1,0,0,22,m,South Asian,no,no,New Zealand,no,1,18 and more,Self,NO,0.6072289368787276,1
+146,1,0,0,1,1,1,1,1,1,1,28,m,White-European,no,no,United States,no,8,18 and more,Parent,YES,0.9607801275502186,1
+147,1,0,1,1,1,1,1,1,1,1,20,m,White-European,no,no,Australia,no,9,18 and more,Self,YES,0.6818608770297723,1
+148,1,1,1,1,1,1,1,1,1,1,19,f,White-European,no,no,Romania,no,10,18 and more,Self,YES,0.9772410908676157,1
+149,1,1,0,0,1,1,1,1,0,1,37,f,Others,no,no,United States,no,7,18 and more,Self,YES,0.3747804290199114,1
+150,1,1,1,1,1,0,1,1,1,0,35,m,White-European,yes,yes,United States,no,8,18 and more,Self,YES,0.9895937185477486,1
+151,0,0,0,0,1,0,0,1,0,0,26,m,Asian,no,no,New Zealand,no,2,18 and more,Self,NO,0.8754267757541843,1
+152,0,1,1,1,1,0,1,1,0,1,23,m,Asian,no,no,Viet Nam,no,7,18 and more,Self,YES,0.945703353083088,1
+153,1,1,0,0,1,0,0,0,0,1,32,f,South Asian,no,no,New Zealand,no,4,18 and more,Self,NO,0.9610363209250391,1
+154,0,0,1,0,1,0,1,0,1,1,30,m,Asian,no,no,Sri Lanka,no,5,18 and more,Self,NO,0.9919931307297852,1
+155,1,0,0,0,1,0,1,0,0,1,31,m,Asian,no,no,Sri Lanka,no,4,18 and more,Self,NO,0.6780974020031272,1
+156,0,0,0,0,0,0,1,1,0,1,28,f,Asian,no,no,New Zealand,no,3,18 and more,Self,NO,0.7042332844724373,1
+157,1,0,0,0,0,1,0,1,0,1,29,f,Asian,no,no,Sri Lanka,no,4,18 and more,Self,NO,0.9894347905104384,1
+158,0,1,0,0,1,0,0,1,0,1,29,f,South Asian,no,no,Sri Lanka,no,4,18 and more,Self,NO,0.9784239839543797,1
+159,1,0,0,1,0,0,0,0,1,1,29,f,Asian,no,no,India,no,4,18 and more,Self,NO,0.8503852467047914,1
+160,1,0,0,0,0,0,1,1,0,0,31,m,Asian,no,no,India,no,3,18 and more,Self,NO,0.9880731139277545,1
+161,0,0,0,0,0,0,0,0,0,0,36,m,Asian,no,no,India,no,0,18 and more,Parent,NO,0.9823676764843454,1
+162,0,1,0,0,0,0,0,1,0,0,32,f,South Asian,no,no,India,no,2,18 and more,Self,NO,0.9970193298638139,1
+163,0,0,0,0,0,0,0,1,0,0,34,f,South Asian,no,no,New Zealand,no,1,18 and more,Self,NO,0.6680827348108013,1
+164,1,1,0,0,0,0,0,1,0,0,24,m,Asian,no,no,Sri Lanka,no,3,18 and more,Self,NO,0.8435048162611947,1
+165,1,0,1,0,1,0,1,1,0,1,24,f,Asian,no,no,New Zealand,no,6,18 and more,Self,NO,0.982164377552456,1
+166,1,0,0,0,1,0,1,1,0,1,42,m,Asian,no,no,Sri Lanka,no,5,18 and more,Self,NO,0.9937758519452399,1
+167,0,0,1,0,0,0,0,1,1,1,26,f,Others,no,no,India,no,4,18 and more,Self,NO,0.9829327035002513,1
+168,1,0,0,0,1,0,1,1,0,0,27,f,Asian,no,no,Sri Lanka,no,4,18 and more,Self,NO,0.990094280021584,1
+169,0,0,1,1,1,0,0,1,1,1,36,f,Latino,no,yes,Brazil,no,6,18 and more,Self,NO,0.999855405194223,1
+170,1,1,1,1,1,0,0,1,1,1,36,f,Latino,no,yes,Brazil,no,8,18 and more,Self,YES,0.9949759311201788,1
+171,1,0,1,1,0,0,1,1,0,1,55,m,Hispanic,no,no,United States,no,6,18 and more,Self,NO,0.31769345094604984,1
+172,1,1,0,1,0,0,1,0,0,0,23,f,Asian,no,no,New Zealand,no,4,18 and more,Self,NO,0.7507014124880611,1
+173,0,0,1,1,1,0,0,0,0,1,22,f,Asian,no,no,Sri Lanka,no,4,18 and more,Self,NO,0.8608107498731634,1
+174,1,0,0,0,0,0,0,1,0,0,42,f,Middle Eastern ,no,no,France,no,2,18 and more,Parent,NO,0.9994032842678539,1
+175,1,0,0,1,0,0,0,1,0,0,54,m,White-European,no,no,Canada,no,3,18 and more,Self,NO,0.971455543359994,1
+176,1,1,0,0,0,0,1,1,1,1,43,f,Black,no,no,United States,no,6,18 and more,Self,NO,0.9979806093112891,1
+177,1,1,1,1,1,1,0,1,1,1,43,f,Black,no,no,United States,yes,9,18 and more,Self,YES,0.9700356688441002,1
+178,0,0,1,1,1,0,0,1,1,1,29,m,Middle Eastern ,no,no,Iran,no,6,18 and more,Self,NO,0.9116740091779396,1
+179,1,0,1,0,1,0,0,1,0,1,29,m,Middle Eastern ,no,no,Iran,no,5,18 and more,Self,NO,0.9984841292499343,1
+180,1,0,1,0,1,0,1,0,0,0,37,m,White-European,no,no,Australia,no,4,18 and more,Self,NO,0.9326983720591616,1
+181,1,0,0,0,1,0,1,0,0,1,39,f,White-European,no,no,Australia,no,4,18 and more,Self,NO,0.9687652626541456,1
+182,1,1,1,1,1,0,0,0,0,0,18,f,Asian,no,no,Viet Nam,no,5,18 and more,Self,NO,0.8419101276547487,1
+183,0,1,0,1,1,1,0,1,0,1,31,m,White-European,no,no,United States,no,6,18 and more,Others,NO,0.8592859766033598,1
+184,0,0,1,1,1,0,0,0,0,1,34,m,Asian,no,no,New Zealand,no,4,18 and more,Self,NO,0.9886124180189473,1
+185,0,0,1,1,1,0,1,0,0,1,22,m,White-European,no,no,United States,no,5,18 and more,Self,NO,0.9581012006276096,1
+186,1,0,1,1,1,1,1,0,1,0,28,m,South Asian,no,no,India,no,7,18 and more,Self,YES,0.8321812571316678,1
+187,1,0,0,0,0,0,1,1,0,1,38,m,Others,no,yes,Netherlands,no,4,18 and more,Self,NO,0.5772116756372654,1
+188,1,0,0,0,0,0,1,1,0,1,28,f,White-European,no,no,Australia,no,4,18 and more,Self,NO,0.9514742276914736,1
+189,1,1,0,1,1,1,0,1,1,1,53,f,White-European,no,yes,United States,no,8,18 and more,Self,YES,0.08420179244620907,1
+190,1,1,1,0,1,0,1,0,0,0,26,m,White-European,no,no,United Kingdom,no,5,18 and more,Self,NO,0.9980486215891763,1
+191,1,1,1,1,1,1,0,1,1,1,37,m,White-European,no,no,United Kingdom,no,9,18 and more,Self,YES,0.9720923923927431,1
+192,1,1,0,1,0,0,0,1,0,1,42,m,Latino,yes,yes,Costa Rica,no,5,18 and more,Parent,NO,0.25270204769705784,1
+193,1,0,0,0,0,0,0,1,0,1,43,m,Hispanic,no,no,United States,no,3,18 and more,Self,NO,0.9213948906199656,1
+194,1,0,0,0,0,0,0,1,0,0,32,f,Asian,no,no,United Kingdom,no,2,18 and more,Self,NO,0.8454783916778241,1
+195,0,1,0,1,0,0,0,1,0,0,31,m,White-European,no,yes,United Kingdom,no,3,18 and more,Self,NO,0.9973647531390194,1
+196,1,0,1,1,1,1,1,1,1,1,53,f,White-European,no,no,United States,no,9,18 and more,Self,YES,0.9120603091227267,1
+197,1,1,1,1,1,1,1,1,1,1,28,m,White-European,no,no,United States,no,10,18 and more,Self,YES,0.9256575362114674,1
+198,1,0,1,1,1,1,1,1,1,1,38,m,White-European,no,no,Germany,no,9,18 and more,Self,YES,0.6652919763133188,1
+199,1,1,1,0,1,1,0,1,1,0,31,m,White-European,no,no,United States,no,7,18 and more,Self,YES,0.9867798910789847,1
+200,1,1,1,1,0,0,0,0,0,0,31,f,Pasifika,no,yes,United States,no,4,18 and more,Self,NO,0.9824974994097531,1
+201,1,1,1,1,1,0,1,1,1,1,21,f,White-European,no,no,Australia,no,9,18 and more,Self,YES,0.2978354747071451,0
+202,1,1,0,1,1,0,0,0,1,1,25,f,White-European,no,no,United States,no,6,18 and more,Self,NO,1.2337316723404226e-05,0
+203,1,1,0,1,1,0,0,1,1,1,25,f,White-European,no,no,United States,no,7,18 and more,Self,YES,0.11858691235096752,0
+204,1,1,1,1,1,1,1,0,1,1,60,f,White-European,no,yes,United States,no,9,18 and more,Relative,YES,0.0029408951197745113,0
+205,1,0,1,1,0,0,0,0,0,0,39,m,White-European,no,yes,United States,no,3,18 and more,Self,NO,0.007188587846347021,0
+206,1,1,1,1,1,1,1,1,1,1,53,m,White-European,no,no,United States,no,10,18 and more,Self,YES,0.10048942037371815,0
+207,1,1,1,1,1,1,1,1,1,1,20,m,Middle Eastern ,no,yes,United States,no,10,18 and more,Parent,YES,0.44234991120757117,0
+208,1,1,1,0,1,0,0,1,1,1,25,f,White-European,no,no,United States,yes,7,18 and more,Self,YES,0.04407380032000478,0
+209,1,1,1,1,0,0,1,1,0,0,50,m,White-European,no,no,United Kingdom,no,6,18 and more,Self,NO,0.005459005856742365,0
+210,1,0,0,1,1,1,1,1,1,1,28,f,White-European,no,no,United States,no,8,18 and more,Self,YES,0.21900025118461816,0
+211,1,0,1,1,1,1,1,1,1,1,37,f,White-European,no,yes,United Kingdom,no,9,18 and more,Self,YES,0.24073667481988906,0
+212,0,0,0,1,0,1,0,1,1,1,30,m,Asian,no,yes,India,no,5,18 and more,Self,NO,0.007093230997814955,0
+213,1,1,0,0,0,1,1,1,0,1,32,f,White-European,no,no,United Kingdom,no,6,18 and more,Self,NO,0.05090929525906372,0
+214,1,0,1,1,0,0,0,0,0,1,34,f,White-European,no,no,United States,no,4,18 and more,Self,NO,0.10241442552225796,0
+215,1,1,1,1,0,0,0,0,0,1,42,m,White-European,no,no,United States,no,5,18 and more,Self,NO,0.1009560835251347,0
+216,1,1,0,0,1,1,1,1,1,1,22,f,Black,no,no,Spain,no,8,18 and more,Self,YES,0.002916689542103956,0
+217,1,0,0,0,0,0,1,1,0,1,37,f,?,yes,no,United Arab Emirates,no,4,18 and more,?,NO,0.03671060258368874,0
+218,1,1,0,0,0,0,0,1,0,1,39,m,White-European,no,yes,United States,no,4,18 and more,Parent,NO,0.004192392759318913,0
+219,1,1,0,1,1,0,1,1,0,1,18,m,White-European,no,no,Bangladesh,no,7,18 and more,Self,YES,0.058483430582740324,0
+220,1,0,0,1,0,0,0,0,0,0,54,f,White-European,no,yes,United States,no,2,18 and more,Parent,NO,0.12805678791129968,0
+221,1,1,0,0,0,0,0,1,0,0,42,m,White-European,no,no,United Kingdom,no,3,18 and more,Self,NO,0.013196345319365487,0
+222,0,0,1,0,0,0,0,0,0,0,27,f,?,no,no,Afghanistan,no,1,18 and more,?,NO,0.01782704905951448,0
+223,1,1,1,1,1,0,0,1,0,0,22,m,White-European,no,no,United Kingdom,no,6,18 and more,Self,NO,0.010140926717927828,0
+224,1,0,1,1,0,1,1,1,1,1,22,m,White-European,no,no,United Kingdom,no,8,18 and more,Self,YES,0.02491796441836339,0
+225,1,1,1,1,1,1,1,0,1,1,21,f,White-European,no,no,United Kingdom,no,9,18 and more,Self,YES,0.013446500050737008,0
+226,0,1,0,1,0,0,0,1,0,1,28,f,White-European,no,no,United States,no,4,18 and more,Self,NO,0.021604867822597445,0
+227,1,1,1,1,1,1,1,0,1,1,17,m,Asian,yes,no,India,no,9,18 and more,Relative,YES,0.12729753379241232,0
+228,0,1,0,0,0,0,0,0,0,0,28,m,White-European,no,no,United States,no,1,18 and more,Self,NO,0.047201803431369094,0
+229,0,0,0,1,1,0,1,1,0,1,21,m,Latino,no,no,Mexico,no,5,18 and more,Self,NO,0.05890293017292649,0
+230,1,1,1,1,1,1,1,1,1,1,31,f,Asian,no,no,New Zealand,no,10,18 and more,Self,YES,0.0026471615686761403,0
+231,1,0,0,0,0,0,1,1,0,0,20,m,South Asian,no,no,New Zealand,no,3,18 and more,Self,NO,0.05338609598322395,0
+232,1,0,0,1,0,0,0,0,0,0,21,m,White-European,no,no,United Kingdom,no,2,18 and more,Self,NO,0.05696959103194029,0
+233,1,1,0,0,1,0,0,0,0,0,22,m,White-European,no,no,New Zealand,no,3,18 and more,Self,NO,0.051183248966137275,0
+234,0,1,0,0,0,0,0,1,1,1,21,m,White-European,no,no,New Zealand,no,4,18 and more,Self,NO,0.08120111834040118,0
+235,0,1,1,0,0,0,0,0,0,0,24,m,Black,no,no,New Zealand,no,2,18 and more,Self,NO,0.37325559026596344,0
+236,1,0,0,0,0,0,0,1,0,0,24,m,South Asian,no,no,India,no,2,18 and more,Self,NO,0.007525666342146585,0
+237,1,0,0,0,1,1,1,1,0,1,25,m,Asian,no,no,New Zealand,no,6,18 and more,Self,NO,0.08253990395185816,0
+238,1,0,0,0,0,0,0,0,0,1,17,m,South Asian,no,no,New Zealand,no,2,18 and more,Self,NO,0.0945917396282692,0
+239,0,1,0,0,0,0,0,1,1,0,21,m,?,no,no,Russia,no,3,18 and more,?,NO,0.008416295805988053,0
+240,1,0,0,0,0,0,0,1,0,0,23,m,Pasifika,no,no,New Zealand,no,2,18 and more,Self,NO,0.05534839816879469,0
+241,1,0,0,1,1,0,1,1,0,0,21,m,Asian,no,no,New Zealand,no,5,18 and more,Self,NO,0.49373779103288173,0
+242,1,0,0,0,1,0,1,1,1,1,22,m,Others,no,no,New Zealand,no,6,18 and more,Self,NO,0.02402965857991108,0
+243,1,0,0,0,1,0,0,1,0,1,24,f,Asian,no,no,India,no,4,18 and more,Self,NO,0.0790841589624873,0
+244,0,0,1,0,1,1,0,0,1,1,34,m,Others,no,no,New Zealand,no,5,18 and more,Self,NO,0.10767872332370595,0
+245,1,0,1,0,1,0,1,1,0,1,30,m,Asian,no,no,New Zealand,no,6,18 and more,Self,NO,0.005158046307624289,0
+246,1,0,0,0,0,0,1,1,0,1,29,f,Asian,no,no,India,no,4,18 and more,Self,NO,0.0011446731897967384,0
+247,1,0,0,1,1,0,1,1,0,0,20,m,Pasifika,no,no,New Zealand,no,5,18 and more,Self,NO,0.0508601405458182,0
+248,0,0,1,1,0,1,0,1,1,1,23,m,White-European,no,no,New Zealand,no,6,18 and more,Self,NO,0.00940682072078335,0
+249,0,0,0,0,0,0,0,1,0,1,26,m,Asian,no,no,India,no,2,18 and more,Self,NO,0.005337645925043162,0
+250,1,0,0,1,1,1,1,1,1,1,20,m,South Asian,no,no,New Zealand,no,8,18 and more,Self,YES,0.08411819217794934,0
+251,1,0,0,0,0,0,1,1,0,0,41,m,Asian,no,no,New Zealand,no,3,18 and more,Self,NO,0.423898630108208,0
+252,1,0,0,1,0,0,1,1,0,0,24,m,Asian,no,no,India,no,4,18 and more,Self,NO,0.2237263382060281,0
+253,0,0,0,1,0,0,0,1,0,0,35,m,Asian,no,no,India,no,2,18 and more,Self,NO,0.06667076709534395,0
+254,0,0,0,1,0,0,1,0,0,0,23,m,South Asian,no,no,India,no,2,18 and more,Self,NO,0.00406378505274236,0
+255,1,0,1,0,0,0,1,0,0,0,36,m,White-European,no,no,New Zealand,no,3,18 and more,Self,NO,0.5457619341827158,0
+256,1,1,0,0,1,0,0,1,0,0,33,m,Turkish,no,no,Armenia,no,4,18 and more,Self,NO,0.05926824627183116,0
+257,1,0,0,0,0,1,0,1,1,1,24,m,South Asian,no,no,India,no,5,18 and more,Self,NO,0.09673737882127942,0
+258,0,1,1,0,1,0,0,1,0,0,25,m,?,no,no,New Zealand,no,4,18 and more,?,NO,3.1844077297503646e-05,0
+259,1,0,0,0,1,1,0,1,0,1,25,m,Asian,no,no,India,no,5,18 and more,Self,NO,0.008801240024970349,0
+260,1,0,0,0,0,0,1,1,1,1,25,m,Asian,no,no,India,no,5,18 and more,Self,NO,0.046388743596452224,0
+261,0,0,0,0,0,0,1,1,0,1,24,m,Asian,no,no,India,no,3,18 and more,Self,NO,0.046736047257080124,0
+262,1,0,1,0,1,0,0,1,0,1,27,f,South Asian,no,no,India,no,5,18 and more,Self,NO,0.1251774419257591,0
+263,1,0,0,0,0,0,1,1,0,0,26,m,Asian,no,no,India,no,3,18 and more,Self,NO,0.11859912944932269,0
+264,0,0,0,0,0,0,0,0,0,0,26,m,Others,no,no,New Zealand,no,0,18 and more,Self,NO,0.11874797769068775,0
+265,1,0,0,0,1,0,0,1,1,0,23,f,Asian,no,no,India,no,4,18 and more,Self,NO,0.025352751126814965,0
+266,1,1,1,0,1,0,1,1,0,1,30,m,Asian,no,no,New Zealand,no,7,18 and more,Self,YES,0.010503225489212885,0
+267,1,0,0,1,0,0,0,0,1,0,25,m,Asian,no,no,Iceland,no,3,18 and more,Self,NO,0.11411840849106406,0
+268,1,0,0,0,0,0,0,1,0,1,23,m,Pasifika,no,no,New Zealand,no,3,18 and more,Self,NO,0.03337979039050211,0
+269,1,0,1,1,1,0,0,1,0,0,34,f,White-European,no,no,United States,no,5,18 and more,Self,NO,0.02749366848375017,0
+270,1,0,0,1,1,0,1,1,0,1,20,f,Asian,no,no,New Zealand,no,6,18 and more,Self,NO,0.11683638099796542,0
+271,1,0,1,1,1,1,0,0,1,1,22,f,?,no,yes,Russia,no,7,18 and more,?,YES,0.12402808505999459,0
+272,1,1,1,1,0,0,0,1,1,1,33,f,Black,no,yes,France,no,7,18 and more,Parent,YES,0.03770616784744103,0
+273,1,1,1,1,1,1,1,1,1,1,46,m,White-European,no,no,Netherlands,no,10,18 and more,Self,YES,0.016305061180533847,0
+274,1,1,0,0,0,0,0,0,0,0,17,m,White-European,no,no,United Kingdom,no,2,18 and more,Others,NO,0.27758220668044603,0
+275,1,1,1,0,0,0,0,1,0,0,45,f,White-European,no,yes,United States,no,4,18 and more,Self,NO,0.0034773919941805996,0
+276,0,1,1,1,0,0,0,0,1,0,26,m,Asian,no,no,India,no,4,18 and more,Others,NO,0.009358013361400658,0
+277,1,0,0,0,1,0,0,0,1,0,30,m,?,no,no,Jordan,no,3,18 and more,?,NO,0.06348909677341989,0
+278,1,1,0,0,0,0,0,0,0,0,32,f,?,no,yes,Jordan,no,2,18 and more,?,NO,0.8724232722620894,0
+279,1,0,1,1,1,1,1,1,1,1,38,f,White-European,no,no,United Kingdom,no,9,18 and more,Self,YES,0.020733752526665473,0
+280,0,1,1,0,1,0,0,0,0,0,26,m,Hispanic,yes,no,Nicaragua,no,3,18 and more,Self,NO,0.03259046579750546,0
+281,1,0,0,0,0,0,0,0,0,0,29,f,Hispanic,no,yes,United States,no,1,18 and more,Self,NO,0.019246116202895763,0
+282,1,1,1,1,1,0,0,1,1,1,33,m,White-European,no,no,Australia,no,8,18 and more,Self,YES,0.10570835476969383,0
+283,0,1,1,0,1,1,1,0,1,1,32,f,Black,no,no,France,no,7,18 and more,Parent,YES,0.026628067171985247,0
+284,1,1,1,1,1,1,1,1,1,1,44,f,White-European,no,no,United States,no,10,18 and more,Self,YES,0.0037293650077116275,0
+285,0,1,0,0,0,0,1,0,0,1,47,f,White-European,yes,no,United Kingdom,no,3,18 and more,Self,NO,0.13458801192703013,0
+286,0,0,0,1,1,1,1,0,1,1,32,f,?,no,no,Hong Kong,no,6,18 and more,?,NO,0.009733389004870254,0
+287,0,0,0,0,0,0,0,0,0,0,40,m,White-European,no,no,New Zealand,no,0,18 and more,Self,NO,0.006207903403602654,0
+288,1,0,0,1,1,0,0,1,0,1,40,m,White-European,no,no,United States,no,5,18 and more,Self,NO,0.01887723256059929,0
+289,0,0,0,0,0,0,0,0,0,0,44,f,White-European,no,no,New Zealand,no,0,18 and more,Self,NO,0.06085449465548316,0
+290,1,1,1,0,1,1,1,0,1,1,56,m,White-European,yes,no,United Kingdom,no,8,18 and more,Self,YES,0.18521080274287827,0
+291,1,1,1,0,1,1,1,0,1,1,23,f,White-European,no,no,Ireland,no,8,18 and more,Self,YES,0.5618441074072531,0
+292,1,1,0,1,1,0,0,1,1,1,32,f,Black,no,no,Canada,no,7,18 and more,Self,YES,0.06608414749229832,0
+293,0,1,1,1,0,0,0,1,0,1,27,m,White-European,no,yes,United Kingdom,no,5,18 and more,Self,NO,0.037392785489218726,0
+294,1,0,0,0,1,0,1,0,0,1,28,f,White-European,no,yes,United Kingdom,no,4,18 and more,Self,NO,0.0008883088832091818,0
+295,0,0,0,0,0,0,0,0,0,0,40,f,Middle Eastern ,no,no,Afghanistan,no,0,18 and more,Parent,NO,0.0006901097616995767,0
+296,1,0,1,1,1,1,0,0,1,1,45,f,White-European,no,no,Canada,no,7,18 and more,Self,YES,0.19349999333756257,0
+297,1,1,1,1,1,1,0,0,1,1,19,f,White-European,yes,no,United Kingdom,no,8,18 and more,Parent,YES,0.025268089550385904,0
+298,1,1,1,1,0,1,0,1,1,1,55,m,White-European,no,yes,United States,no,8,18 and more,Others,YES,0.006941713623404425,0
+299,1,0,0,1,0,0,1,1,0,1,27,f,White-European,yes,no,Australia,no,5,18 and more,Self,NO,0.5014192454523595,0
+300,1,1,1,1,1,1,1,0,1,1,19,f,White-European,yes,no,United Kingdom,no,9,18 and more,Self,YES,1.2189515818506561e-08,0
+301,1,0,0,1,0,0,0,1,0,0,29,m,White-European,no,no,Ireland,no,3,18 and more,Self,NO,0.21065853685761732,0
+302,1,1,1,1,1,1,1,1,1,1,33,f,White-European,yes,no,United Kingdom,no,10,18 and more,Self,YES,0.022810866300864367,0
+303,0,0,1,1,1,1,1,1,0,0,48,f,White-European,no,no,Netherlands,no,6,18 and more,Self,NO,0.09732303292773234,0
+304,0,0,0,0,0,0,0,1,1,0,37,f,Others,no,no,United Kingdom,no,2,18 and more,Self,NO,0.33289331700471025,0
+305,1,1,1,1,1,0,0,0,1,0,30,m,Asian,no,no,Afghanistan,no,6,18 and more,Self,NO,0.022172057154732003,0
+306,1,1,0,1,0,0,0,0,0,1,37,f,White-European,no,no,United Kingdom,no,4,18 and more,Self,NO,0.006500831594164476,0
+307,1,0,0,1,1,0,1,1,1,1,28,f,?,no,no,Saudi Arabia,no,7,18 and more,?,YES,0.03186153342463896,0
+308,1,0,0,1,1,1,1,1,1,1,20,f,White-European,no,no,Austria,no,8,18 and more,Self,YES,0.14117509349903773,0
+309,1,1,1,1,1,1,0,0,1,1,25,f,Others,no,no,United States,no,8,18 and more,Self,YES,0.06460397888806146,0
+310,1,1,1,1,1,1,0,1,0,0,58,f,Middle Eastern ,no,no,United Kingdom,no,7,18 and more,Self,YES,0.02205529945155447,0
+311,1,0,1,0,0,0,0,0,0,0,36,f,White-European,no,no,United States,no,2,18 and more,Self,NO,0.44481528351386207,0
+312,0,0,1,1,1,0,0,1,0,0,36,m,White-European,yes,no,United States,no,4,18 and more,Self,NO,0.11305536664611326,0
+313,1,0,1,0,1,1,1,1,1,0,19,m,Hispanic,no,no,United States,no,7,18 and more,Self,YES,0.024988056044743905,0
+314,1,0,1,1,1,1,0,1,1,0,19,m,Hispanic,no,no,United States,yes,7,18 and more,Self,YES,0.2099047690554184,0
+315,1,0,0,1,1,0,0,1,0,1,22,f,White-European,no,no,New Zealand,no,5,18 and more,Self,NO,0.029491578563891285,0
+316,1,1,0,0,0,0,0,1,0,0,20,m,?,no,no,United Arab Emirates,no,3,18 and more,?,NO,0.1124714486999105,0
+317,0,1,0,0,0,0,1,1,0,1,24,f,Middle Eastern ,no,no,United Arab Emirates,no,4,18 and more,Self,NO,0.059662222462080375,0
+318,0,0,0,1,1,0,0,1,1,0,19,m,Middle Eastern ,no,no,United Arab Emirates,no,4,18 and more,Self,NO,0.039105430952906646,0
+319,1,1,1,0,1,0,0,1,0,1,21,m,Others,no,no,United Arab Emirates,no,6,18 and more,Self,NO,0.0008456319110194651,0
+320,0,0,0,0,0,0,0,0,0,0,20,m,Middle Eastern ,no,no,United Arab Emirates,no,0,18 and more,Self,NO,0.04127042544982756,0
+321,1,1,0,0,0,0,0,0,0,0,18,f,Middle Eastern ,no,no,United Arab Emirates,no,2,18 and more,Self,NO,0.01081145877138078,0
+322,0,1,1,0,0,0,0,1,0,1,23,f,Middle Eastern ,no,no,United Arab Emirates,no,4,18 and more,Self,NO,0.005935731564763036,0
+323,1,1,1,0,1,1,1,1,0,1,22,m,Middle Eastern ,no,no,United Arab Emirates,no,8,18 and more,Self,YES,0.12631322825123828,0
+324,1,1,0,1,1,0,0,0,0,0,18,f,South Asian,no,yes,Bangladesh,no,4,18 and more,Self,NO,0.03975976421723353,0
+325,1,0,0,0,0,0,0,0,0,1,37,f,?,no,no,United Arab Emirates,no,2,18 and more,?,NO,0.002621618979227592,0
+326,1,1,1,0,1,0,0,1,0,0,18,m,Middle Eastern ,no,no,United Arab Emirates,no,5,18 and more,Relative,NO,0.16656193801409364,0
+327,1,1,1,0,1,0,0,1,0,0,18,m,Middle Eastern ,no,no,United Arab Emirates,no,5,18 and more,Relative,NO,0.05351186993539777,0
+328,0,0,0,0,1,0,0,1,0,0,18,m,Middle Eastern ,no,no,United Arab Emirates,no,2,18 and more,Relative,NO,0.15462257001274585,0
+329,1,1,1,0,0,0,0,1,0,0,18,m,Middle Eastern ,no,no,United Arab Emirates,no,4,18 and more,Relative,NO,0.0002158916904783928,0
+330,0,1,0,0,0,0,1,1,0,0,18,m,Middle Eastern ,no,no,United Arab Emirates,no,3,18 and more,Relative,NO,0.028318402842011287,0
+331,1,1,1,0,0,0,0,1,0,0,18,m,Middle Eastern ,no,no,United Arab Emirates,no,4,18 and more,Relative,NO,0.03306716932728811,0
+332,1,1,1,1,1,1,1,1,1,1,19,m,White-European,no,no,Austria,no,10,18 and more,Self,YES,0.08719943980401522,0
+333,1,0,0,1,1,1,1,0,1,1,55,m,White-European,no,no,United Kingdom,no,7,18 and more,Self,YES,0.03563346835873781,0
+334,1,0,0,0,0,1,1,0,1,1,32,f,Asian,no,no,Canada,no,5,18 and more,Parent,NO,0.041041597012551834,0
+335,1,1,0,1,0,0,1,1,0,0,50,m,White-European,yes,no,United Kingdom,no,5,18 and more,Self,NO,0.0018670363791165837,0
+336,1,1,1,1,0,0,1,1,0,0,40,m,White-European,no,no,United Kingdom,no,6,18 and more,Self,NO,0.05251489278458456,0
+337,1,0,0,1,1,1,0,0,0,0,47,m,Middle Eastern ,no,no,Jordan,no,4,18 and more,Self,NO,0.05245686183966884,0
+338,1,1,0,0,0,0,0,0,0,1,20,m,?,no,no,Jordan,no,3,18 and more,?,NO,0.0007418673964122107,0
+339,1,0,1,0,0,0,1,1,0,0,22,f,?,no,no,Jordan,no,4,18 and more,?,NO,0.1762992635745348,0
+340,1,0,0,0,0,0,1,0,0,0,21,f,?,no,no,Jordan,no,2,18 and more,?,NO,0.24154897576068052,0
+341,1,0,1,1,0,0,1,1,1,0,21,f,?,no,no,Jordan,no,6,18 and more,?,NO,0.49657883046091833,0
+342,1,1,1,1,1,0,0,1,0,0,19,m,?,no,no,Jordan,no,6,18 and more,?,NO,0.035039214223010165,0
+343,1,0,1,1,0,0,0,0,0,0,21,f,?,no,no,Jordan,no,3,18 and more,?,NO,0.035032015630666866,0
+344,1,0,0,1,0,0,0,0,0,0,21,m,?,no,no,Jordan,no,2,18 and more,?,NO,0.028795102653230348,0
+345,0,1,0,1,0,1,0,1,0,1,23,f,?,no,no,Jordan,no,5,18 and more,?,NO,0.0240311164847651,0
+346,1,0,0,0,0,0,0,0,0,0,21,m,?,no,no,Jordan,no,1,18 and more,?,NO,0.004741016617432049,0
+347,1,0,0,0,1,0,1,1,1,0,21,m,?,no,no,Jordan,no,5,18 and more,?,NO,0.0038382745201521657,0
+348,0,0,0,0,0,0,0,1,0,0,23,m,?,no,no,Jordan,no,1,18 and more,?,NO,0.0768083171270083,0
+349,1,0,1,1,0,1,1,1,1,1,20,f,?,no,no,Jordan,no,8,18 and more,?,YES,0.14563746609909856,0
+350,1,1,1,0,0,0,0,1,0,1,21,f,?,no,no,Jordan,no,5,18 and more,?,NO,0.04964798941057195,0
+351,1,1,1,0,1,0,1,1,1,1,20,m,?,no,no,Argentina,no,8,18 and more,?,YES,0.00013137220906239428,0
+352,1,1,0,0,0,0,1,1,0,0,19,m,?,no,no,Jordan,no,4,18 and more,?,NO,0.23509996538110686,0
+353,0,1,0,0,0,0,0,1,0,0,21,m,?,no,no,Jordan,no,2,18 and more,?,NO,0.42739408360664866,0
+354,1,0,1,0,0,0,1,0,0,0,26,m,?,no,yes,Jordan,no,3,18 and more,?,NO,0.06415321265745746,0
+355,0,0,0,1,0,0,0,1,0,0,21,m,?,no,no,Jordan,no,2,18 and more,?,NO,0.0045649102298345266,0
+356,0,0,0,0,1,0,0,1,0,0,19,m,?,no,no,Japan,no,2,18 and more,?,NO,0.0663592376198167,0
+357,1,0,0,1,0,0,0,1,0,1,22,m,Middle Eastern ,no,no,United Arab Emirates,no,4,18 and more,Parent,NO,0.0002196719061764789,0
+358,1,0,0,0,0,0,0,1,0,0,19,f,Middle Eastern ,no,no,United Arab Emirates,no,2,18 and more,Self,NO,0.004466222985399244,0
+359,1,0,0,1,0,0,1,0,0,1,22,m,Middle Eastern ,no,no,United Arab Emirates,no,4,18 and more,Self,NO,0.006040909013330745,0
+360,0,0,1,0,0,0,0,0,0,1,20,m,Middle Eastern ,no,no,United Arab Emirates,no,2,18 and more,Self,NO,0.06070674382021325,0
+361,1,0,1,0,1,0,0,1,0,0,23,m,Middle Eastern ,no,no,United Arab Emirates,no,4,18 and more,Self,NO,0.054277237755335106,0
+362,0,0,0,0,0,1,0,1,0,0,19,f,?,no,no,Ukraine,no,2,18 and more,?,NO,0.05728661856555376,0
+363,0,0,0,0,1,0,0,1,0,1,20,m,Middle Eastern ,no,no,United Arab Emirates,no,3,18 and more,Parent,NO,0.046885079269343426,0
+364,0,1,0,1,0,0,0,0,0,0,24,m,Middle Eastern ,no,no,United Arab Emirates,no,2,18 and more,Self,NO,0.06455181918216053,0
+365,0,1,1,0,0,0,0,1,0,1,19,m,Middle Eastern ,no,no,United Arab Emirates,no,4,18 and more,Self,NO,0.7689596548675522,0
+366,1,0,0,0,0,1,0,1,0,1,20,m,?,no,no,United Arab Emirates,no,4,18 and more,?,NO,0.0770982223904156,0
+367,1,0,1,0,1,0,0,1,0,1,23,m,Middle Eastern ,no,yes,United Arab Emirates,no,5,18 and more,Self,NO,0.05786082335519942,0
+368,0,0,1,1,0,0,1,0,0,1,20,m,Others,no,no,Russia,no,4,18 and more,Self,NO,0.10375503086959248,0
+369,1,0,1,0,1,0,0,1,0,1,20,m,Middle Eastern ,no,no,United Arab Emirates,no,5,18 and more,Self,NO,0.12019426551257403,0
+370,0,0,0,0,0,0,0,1,1,0,20,m,?,yes,no,United Arab Emirates,no,2,18 and more,?,NO,0.2391356694646582,0
+371,1,0,1,0,0,0,0,0,0,1,20,f,?,no,no,United Arab Emirates,no,3,18 and more,?,NO,0.06448900421620501,0
+372,1,0,0,1,1,0,0,1,0,1,21,f,Asian,no,no,Afghanistan,no,5,18 and more,Self,NO,0.10395711128373566,0
+373,0,1,0,0,0,0,0,0,0,1,19,m,?,no,no,Kazakhstan,no,2,18 and more,?,NO,0.32092266633558425,0
+374,1,0,0,0,0,0,0,1,0,1,20,f,Middle Eastern ,no,no,United Arab Emirates,no,3,18 and more,Self,NO,0.11059654732364843,0
+375,1,0,0,1,1,0,1,0,0,1,20,m,Middle Eastern ,no,no,Saudi Arabia,no,5,18 and more,Self,NO,0.10214326623222152,0
+376,1,0,0,0,0,1,0,0,1,0,25,m,Middle Eastern ,yes,yes,Armenia,yes,3,18 and more,Relative,NO,0.2783583694374255,0
+377,1,0,0,0,0,0,0,1,0,0,20,f,Middle Eastern ,no,no,United Arab Emirates,no,2,18 and more,Self,NO,0.005055117166454942,0
+378,1,0,0,0,0,1,1,1,0,1,22,m,Middle Eastern ,no,no,AmericanSamoa,no,5,18 and more,Self,NO,0.13513012734691834,0
+379,1,0,0,0,0,0,0,1,0,0,20,f,?,no,no,United Arab Emirates,no,2,18 and more,?,NO,0.19576678589254512,0
+380,0,1,0,0,1,1,0,0,0,0,20,m,?,no,no,United Arab Emirates,no,3,18 and more,?,NO,0.19351992966185552,0
+381,0,0,0,1,0,0,1,0,0,0,20,f,?,no,no,Jordan,no,2,18 and more,?,NO,0.10821646009030464,0
+382,1,0,0,0,0,0,0,1,0,0,23,f,?,no,no,Jordan,no,2,18 and more,?,NO,0.14801182664028964,0
+383,1,1,1,1,1,0,1,0,1,1,21,f,?,no,no,Jordan,no,8,18 and more,?,YES,0.019954721368848242,0
+384,1,0,0,0,0,0,1,1,0,1,22,m,?,no,no,Jordan,no,4,18 and more,?,NO,0.00010311742632050275,0
+385,1,1,0,0,0,0,0,1,0,0,21,f,?,no,no,Jordan,no,3,18 and more,?,NO,0.0069683759865482725,0
+386,1,0,1,0,0,0,0,0,0,1,20,f,?,no,no,Jordan,no,3,18 and more,?,NO,0.00708643539406673,0
+387,1,0,0,1,0,0,0,0,0,0,22,f,?,no,no,Jordan,no,2,18 and more,?,NO,0.026444286079689776,0
+388,1,0,1,1,1,0,1,1,0,0,21,f,?,yes,no,Jordan,no,6,18 and more,?,NO,0.18466213659300673,0
+389,1,1,0,0,1,0,0,1,0,0,20,f,?,no,no,Jordan,no,4,18 and more,?,NO,0.1232179012302902,0
+390,0,1,0,0,0,0,0,1,0,0,20,f,Middle Eastern ,no,no,United Arab Emirates,no,2,18 and more,Self,NO,0.10141388908933754,0
+391,1,0,0,0,1,0,0,1,0,0,21,m,?,no,no,Jordan,no,3,18 and more,?,NO,0.05341838344017323,0
+392,1,0,1,1,1,0,0,0,1,1,21,m,Middle Eastern ,no,no,United Arab Emirates,no,6,18 and more,Self,NO,0.2376282183784805,0
+393,0,1,0,0,0,1,0,1,0,1,23,f,Middle Eastern ,no,no,United Arab Emirates,no,4,18 and more,Self,NO,0.007132178193966434,0
+394,1,1,0,0,0,0,0,1,0,0,21,f,Turkish,no,no,United Arab Emirates,no,3,18 and more,Self,NO,0.05543367398393475,0
+395,1,0,0,0,1,1,0,1,0,1,22,f,Black,no,no,United Arab Emirates,no,5,18 and more,Self,NO,0.3528526176431265,0
+396,0,1,1,1,0,1,0,1,0,0,19,f,?,no,no,United Arab Emirates,no,5,18 and more,?,NO,0.08613193553805448,0
+397,1,1,1,0,1,0,0,0,0,0,20,f,Asian,no,no,United Arab Emirates,no,4,18 and more,Self,NO,0.0023867809078042075,0
+398,0,1,0,0,0,0,0,1,0,1,21,f,Others,no,no,United Arab Emirates,no,3,18 and more,Self,NO,0.013029165443282698,0
+399,0,1,1,0,0,0,0,1,0,0,26,m,Middle Eastern ,no,no,United Arab Emirates,no,3,18 and more,Self,NO,3.998788775516012e-05,0
+400,1,0,0,0,0,0,0,0,0,0,19,f,?,no,no,Kazakhstan,no,1,18 and more,?,NO,0.040048336918864245,0
+401,1,0,0,1,0,0,1,1,0,1,20,f,?,no,no,United Arab Emirates,no,5,18 and more,?,NO,0.04582797694627099,0
+402,1,0,0,0,0,0,0,1,0,1,26,f,?,no,no,United Arab Emirates,no,3,18 and more,?,NO,0.01783983410285788,0
+403,1,0,0,1,0,0,1,0,0,1,23,f,Black,no,no,United Arab Emirates,no,4,18 and more,Self,NO,0.023510069653895255,0
+404,1,0,0,1,0,0,1,0,0,1,28,f,?,no,no,United Arab Emirates,no,4,18 and more,?,NO,0.042096082551469766,0
+405,0,1,0,1,1,0,0,0,0,0,19,f,Middle Eastern ,no,no,United Arab Emirates,no,3,18 and more,Self,NO,0.6350940760947023,0
+406,1,0,0,0,0,0,1,1,0,0,20,f,Middle Eastern ,no,no,United Arab Emirates,no,3,18 and more,Self,NO,0.004849434821395455,0
+407,0,1,0,0,1,0,1,1,0,1,19,f,Black,no,no,United Arab Emirates,no,5,18 and more,Self,NO,0.1361353517309307,0
+408,1,0,1,1,1,1,1,1,1,0,24,m,Asian,no,no,India,no,8,18 and more,Self,YES,0.014595175196838506,0
+409,1,0,0,1,1,0,0,1,0,1,19,f,South Asian,no,no,United Arab Emirates,no,5,18 and more,Self,NO,0.18007372107808697,0
+410,1,1,0,0,0,0,0,0,0,0,22,f,Middle Eastern ,no,no,United Arab Emirates,no,2,18 and more,Self,NO,0.43842437034823467,0
+411,1,1,0,1,0,0,0,0,0,1,20,f,Middle Eastern ,no,no,United Arab Emirates,no,4,18 and more,Self,NO,0.09204791975142695,0
+412,0,1,0,1,0,0,0,1,0,0,21,m,Middle Eastern ,no,no,United Arab Emirates,no,3,18 and more,Self,NO,0.0001781402962677577,0
+413,0,0,1,1,1,0,0,1,0,0,24,f,Others,no,no,United Arab Emirates,no,4,18 and more,Self,NO,0.041709839890092276,0
+414,0,0,1,1,1,0,0,0,0,1,18,f,Middle Eastern ,no,no,United Arab Emirates,no,4,18 and more,Self,NO,0.26088869696389233,0
+415,1,0,1,1,1,0,1,1,0,1,19,f,Middle Eastern ,no,no,United Arab Emirates,no,7,18 and more,Self,YES,0.08275742036469365,0
+416,1,0,1,0,0,0,0,0,0,0,19,f,Middle Eastern ,no,no,United Arab Emirates,no,2,18 and more,Self,NO,0.1063123396197729,0
+417,1,0,0,0,0,0,1,1,0,1,31,m,Middle Eastern ,yes,no,United Arab Emirates,no,4,18 and more,Self,NO,0.011767702571645123,0
+418,1,1,0,1,0,0,1,1,0,0,19,m,Middle Eastern ,no,no,United Arab Emirates,no,5,18 and more,Self,NO,0.0027935187811120544,0
+419,1,0,0,0,0,0,1,0,1,1,21,f,Middle Eastern ,no,no,United Arab Emirates,no,4,18 and more,Self,NO,0.20026757820625823,0
+420,1,0,0,0,1,0,1,0,0,1,20,m,Middle Eastern ,no,no,United Arab Emirates,no,4,18 and more,Self,NO,0.1533009509928378,0
+421,1,0,1,0,1,0,1,1,0,1,26,f,Middle Eastern ,no,no,United Arab Emirates,no,6,18 and more,Self,NO,0.7231502700624424,0
+422,0,0,0,0,0,0,1,0,0,0,27,m,Middle Eastern ,no,no,Afghanistan,no,1,18 and more,Self,NO,0.07601361470258147,0
+423,1,0,1,0,0,1,0,1,0,0,23,f,Middle Eastern ,no,no,United Arab Emirates,no,4,18 and more,Self,NO,0.013781470223297895,0
+424,0,1,0,1,0,0,0,0,0,0,29,f,?,no,no,United Arab Emirates,no,2,18 and more,?,NO,0.20886303041484183,0
+425,1,1,1,1,0,0,1,0,0,0,23,m,Middle Eastern ,no,no,United Arab Emirates,no,5,18 and more,Self,NO,0.11700313579700457,0
+426,1,0,0,0,0,0,1,1,0,1,23,m,Turkish,no,no,United Arab Emirates,no,4,18 and more,Others,NO,0.0850584633369967,0
+427,1,0,1,1,1,1,0,1,1,1,24,m,Asian,no,yes,India,no,8,18 and more,Self,YES,0.27259185452345874,0
+428,1,0,0,1,0,0,1,1,0,0,21,m,?,no,no,Jordan,no,4,18 and more,?,NO,0.01761595716861003,0
+429,0,0,0,0,1,0,1,0,0,0,20,f,?,no,no,Brazil,yes,2,18 and more,?,NO,0.0324142252259098,0
+430,1,0,1,0,1,0,1,1,1,0,20,m,?,no,no,Jordan,no,6,18 and more,?,NO,0.010814811719392756,0
+431,1,1,1,1,1,1,1,0,1,1,32,f,Black,no,no,France,no,9,18 and more,Parent,YES,0.21758189776922127,0
+432,1,1,1,1,1,1,1,1,1,1,61,m,White-European,yes,yes,Uruguay,no,10,18 and more,Self,YES,0.03306819832386492,0
+433,1,0,0,1,1,0,0,0,0,0,19,m,?,no,no,Jordan,no,3,18 and more,?,NO,0.13219462034761303,0
+434,1,1,1,1,1,1,0,1,1,0,35,f,White-European,no,no,Italy,no,8,18 and more,Self,YES,0.04482061110641073,0
+435,1,0,0,0,0,1,0,0,0,1,34,f,White-European,no,no,Ukraine,yes,3,18 and more,Self,NO,0.3971417201372024,0
+436,0,0,1,1,0,0,0,0,0,0,23,f,Middle Eastern ,no,no,United Arab Emirates,yes,2,18 and more,Self,NO,0.009891654650486071,0
+437,1,1,1,1,0,0,0,0,0,1,19,f,White-European,no,no,Serbia,no,5,18 and more,Self,NO,0.05748804232336837,0
+438,1,1,0,0,1,1,0,1,0,1,36,f,Others,no,no,Philippines,no,6,18 and more,Parent,NO,0.15264459639863787,0
+439,1,1,0,0,0,0,0,1,0,1,21,f,?,no,no,Jordan,no,4,18 and more,?,NO,0.6365100025825348,0
+440,0,1,0,0,0,0,0,1,0,0,23,m,White-European,no,no,United States,no,2,18 and more,Self,NO,0.11751169141314247,0
+441,1,0,1,1,1,0,1,0,0,1,17,m,Black,no,no,United States,no,6,18 and more,Relative,NO,0.11425746631150172,0
+442,1,0,1,0,0,0,0,0,0,0,22,m,White-European,no,no,Portugal,no,2,18 and more,Self,NO,0.014786782949865554,0
+443,0,1,1,1,1,0,1,0,0,1,33,m,White-European,no,yes,Australia,no,6,18 and more,Relative,NO,0.04640267818589516,0
+444,1,1,1,1,1,0,0,1,0,1,23,f,Asian,no,no,Malaysia,no,7,18 and more,Self,YES,0.11976009429063997,0
+445,0,1,1,1,1,1,0,1,0,1,35,f,White-European,no,yes,Sweden,no,7,18 and more,Self,YES,0.11754365563847617,0
+446,1,0,0,0,0,0,0,1,0,1,21,m,White-European,no,yes,Australia,no,3,18 and more,Self,NO,0.047580299537763535,0
+447,1,0,0,1,1,0,1,1,1,1,20,f,White-European,no,no,Austria,no,7,18 and more,Self,YES,0.03793094064058049,0
+448,1,0,0,0,0,0,0,1,0,0,29,m,White-European,no,no,Netherlands,no,2,18 and more,Health care professional,NO,0.015292194517116988,0
+449,1,1,1,1,1,1,1,0,1,1,59,m,White-European,no,no,United States,no,9,18 and more,Self,YES,0.06633791961660615,0
+450,1,1,1,0,0,0,0,1,0,1,18,f,White-European,no,no,Netherlands,no,5,18 and more,Self,NO,0.048956606246205445,0
+451,1,1,0,0,0,0,0,1,0,0,19,f,Middle Eastern ,no,no,United Arab Emirates,no,3,18 and more,Self,NO,0.038591427889817134,0
+452,0,0,1,1,0,0,0,1,0,0,24,m,Middle Eastern ,no,no,United Arab Emirates,no,3,18 and more,Self,NO,3.87377617545595e-05,0
+453,1,1,1,1,1,0,0,1,1,0,36,f,White-European,no,no,Italy,no,7,18 and more,Self,YES,0.003290478302811665,0
+454,0,0,1,1,1,0,0,0,0,1,19,f,?,yes,no,Jordan,no,4,18 and more,?,NO,0.12113724620011745,0
+455,1,1,0,0,0,0,1,0,0,0,17,f,Black,no,no,United Arab Emirates,no,3,18 and more,Self,NO,0.011115269835549346,0
+456,1,0,0,0,0,0,0,1,0,1,52,m,White-European,yes,no,United Kingdom,no,3,18 and more,Self,NO,0.004154724775154291,0
+457,1,1,0,1,1,0,0,0,0,0,18,m,Middle Eastern ,no,no,United Arab Emirates,no,4,18 and more,Self,NO,0.687284423838348,0
+458,0,0,0,0,0,0,1,0,0,0,30,m,Asian,no,no,Philippines,no,1,18 and more,Self,NO,0.15457563888619166,0
+459,0,1,1,1,1,1,0,1,1,1,18,m,Middle Eastern ,yes,no,New Zealand,no,8,18 and more,Self,YES,0.27800067011889606,0
+460,1,1,1,1,1,0,0,1,0,0,27,m,Latino,no,no,Ecuador,no,6,18 and more,Self,NO,0.22502129100202373,0
+461,0,0,0,1,0,0,0,0,0,0,52,f,White-European,no,no,United Kingdom,no,1,18 and more,Self,NO,0.2217528497452867,0
+462,0,0,0,0,0,0,0,1,0,0,45,f,Asian,no,no,Viet Nam,no,1,18 and more,Self,NO,0.008550743887215892,0
+463,0,1,1,1,1,1,0,0,1,0,25,f,Others,no,no,Afghanistan,no,6,18 and more,Health care professional,NO,0.003159037986119001,0
+464,0,0,0,1,0,0,1,0,0,1,29,f,White-European,no,no,United Kingdom,no,3,18 and more,Self,NO,0.013359755828854231,0
+465,1,1,0,1,1,1,1,1,0,1,29,f,White-European,yes,no,United States,no,8,18 and more,Self,YES,0.2981018967584579,0
+466,1,0,0,0,0,1,0,0,0,1,18,m,White-European,no,yes,Netherlands,no,3,18 and more,Self,NO,0.009915557240231935,0
+467,0,0,1,1,0,1,1,1,1,1,18,m,White-European,no,no,Netherlands,no,7,18 and more,Relative,YES,0.02200315082360923,0
+468,1,0,1,1,0,1,0,0,0,1,17,m,White-European,no,no,Netherlands,no,5,18 and more,Relative,NO,0.043587081188432825,0
+469,1,1,1,1,1,1,1,1,1,1,27,f,Asian,no,no,United States,no,10,18 and more,Self,YES,0.0796610335993813,0
+470,0,0,0,0,0,0,0,1,0,0,22,f,Asian,yes,no,Malaysia,no,1,18 and more,Self,NO,0.9792542618273054,0
+471,0,0,0,0,0,1,0,1,1,0,23,m,Asian,no,no,India,no,3,18 and more,Self,NO,0.0010919872152622342,0
+472,1,1,1,1,1,0,1,1,0,0,25,m,Latino,no,no,United Kingdom,no,7,18 and more,Self,YES,0.006998525032379574,0
+473,1,0,1,1,1,0,0,0,0,0,23,f,South Asian,no,no,New Zealand,no,4,18 and more,Self,NO,0.014757791043104393,0
+474,1,0,0,0,0,0,0,1,0,1,29,m,Asian,no,no,India,no,3,18 and more,Self,NO,0.03675614274457163,0
+475,1,0,0,1,1,0,1,0,0,0,27,f,Asian,no,no,Sri Lanka,no,4,18 and more,Self,NO,0.1905374341116598,0
+476,1,0,0,0,0,1,0,1,0,0,27,f,Asian,no,no,India,no,3,18 and more,Self,NO,0.2649184538003933,0
+477,0,0,0,0,0,0,0,0,0,0,43,f,South Asian,no,no,India,no,0,18 and more,Parent,NO,0.0058882082138609505,0
+478,1,0,0,0,0,0,0,1,0,0,26,f,Asian,no,no,India,no,2,18 and more,Self,NO,0.019459343364997685,0
+479,1,0,0,0,1,0,0,1,0,1,30,f,Asian,no,no,India,no,4,18 and more,Self,NO,0.016350918418887618,0
+480,0,0,0,0,0,0,0,1,0,0,23,m,White-European,no,no,India,no,1,18 and more,Self,NO,0.03811246579474889,0
+481,1,0,0,0,1,0,1,1,0,0,29,f,Asian,no,no,Sri Lanka,no,4,18 and more,Self,NO,0.0031789896559017254,0
+482,0,0,0,0,0,0,0,1,0,1,37,m,White-European,no,no,United Kingdom,no,2,18 and more,Parent,NO,0.11990655770232836,0
+483,0,0,0,0,0,0,1,0,0,1,28,f,White-European,no,no,United Kingdom,no,2,18 and more,Self,NO,0.007404086682083087,0
+484,1,1,1,1,0,0,1,1,0,0,25,m,South Asian,no,no,United States,no,6,18 and more,Self,NO,0.06497384445010485,0
+485,1,0,1,1,0,0,1,1,0,0,25,m,Others,no,no,India,no,5,18 and more,Self,NO,0.050520354664687996,0
+486,0,1,0,0,0,0,0,1,1,0,21,m,?,no,no,Jordan,no,3,18 and more,?,NO,0.09534208138506475,0
+487,1,1,1,1,1,1,1,0,1,1,43,m,White-European,no,no,United Kingdom,no,9,18 and more,Self,YES,0.07891587060604635,0
+488,1,1,0,1,1,1,0,0,1,1,30,f,White-European,no,no,United States,no,7,18 and more,Self,YES,0.13047885055572303,0
+489,0,1,1,0,0,0,1,0,0,1,18,m,Black,no,no,Niger,no,4,18 and more,Self,NO,0.0025892625423714183,0
+490,1,1,1,1,0,0,0,1,0,0,18,f,White-European,no,no,Romania,no,5,18 and more,Self,NO,0.24904157687016343,0
+491,1,1,1,1,0,0,1,1,1,0,30,m,Others,no,no,Canada,no,7,18 and more,Self,YES,0.00863481119890598,0
+492,0,0,0,0,0,0,0,0,0,0,31,f,White-European,no,no,Germany,no,0,18 and more,Self,NO,0.01689445249475128,0
+493,1,0,0,0,1,0,1,1,0,1,33,m,Latino,no,no,Mexico,no,5,18 and more,Self,NO,0.012514945630864601,0
+494,1,1,1,1,1,1,1,1,1,1,33,m,Latino,no,no,Mexico,no,10,18 and more,Self,YES,0.04825104145743743,0
+495,1,1,1,1,0,0,1,0,0,1,26,m,White-European,no,no,United Kingdom,no,6,18 and more,Self,NO,0.2618250781083573,0
+496,1,0,1,1,0,0,0,0,0,0,61,f,White-European,no,no,United States,no,3,18 and more,Self,NO,0.020769290952346867,0
+497,0,0,0,1,0,0,0,1,0,1,46,m,Others,no,no,Viet Nam,no,3,18 and more,Self,NO,0.24101159405451691,0
+498,0,1,1,1,1,1,1,0,1,1,33,m,Asian,no,no,India,no,8,18 and more,Self,YES,0.2844291410264505,0
+499,1,1,1,1,1,0,1,1,0,1,38,f,Black,no,no,Canada,no,8,18 and more,Self,YES,0.1973985799580026,0
+500,1,1,0,0,0,0,0,1,0,0,44,m,Black,no,no,France,no,3,18 and more,Parent,NO,0.04485730767908512,0
+501,0,1,1,1,1,0,0,0,1,0,48,f,Black,no,yes,France,no,5,18 and more,Parent,NO,0.002518566181147204,0
+502,1,1,0,1,1,1,0,1,1,1,42,f,Latino,yes,no,Mexico,no,8,18 and more,Self,YES,0.11097535462977895,0
+503,0,1,0,0,1,0,1,1,0,0,37,m,White-European,no,no,Belgium,no,4,18 and more,Self,NO,0.3220475370558059,0
+504,1,0,1,1,1,0,0,1,0,1,23,f,White-European,no,yes,United Kingdom,no,6,18 and more,Self,NO,0.1543833524047106,0
+505,1,0,1,1,1,0,1,1,1,1,24,m,White-European,no,yes,United Kingdom,no,8,18 and more,Relative,YES,0.0005558632891548872,0
+506,1,0,1,0,1,0,1,1,0,1,41,m,?,yes,yes,United Kingdom,no,6,18 and more,?,NO,0.096204778021836,0
+507,1,0,1,0,0,0,1,0,0,1,41,m,Asian,no,no,United Kingdom,no,4,18 and more,Self,NO,0.0018926436979090932,0
+508,0,1,1,0,1,0,0,1,0,0,27,m,White-European,no,no,Belgium,no,4,18 and more,Self,NO,0.06059152298661952,0
+509,1,1,1,1,1,1,1,1,1,1,46,f,White-European,yes,yes,United Kingdom,no,10,18 and more,Self,YES,0.012618236882437623,0
+510,0,1,0,0,0,0,0,0,0,1,40,f,White-European,yes,no,United States,no,2,18 and more,Self,NO,0.0011324133392221385,0
+511,0,1,1,1,1,1,1,1,0,1,22,f,White-European,no,no,United States,no,8,18 and more,Self,YES,0.670101902526479,0
+512,1,1,1,1,1,1,1,0,1,1,42,m,White-European,no,no,United Kingdom,no,9,18 and more,Self,YES,0.003648552392860018,0
+513,1,1,1,0,0,0,0,0,0,1,18,f,Asian,no,no,Viet Nam,no,4,18 and more,Self,NO,0.0232749979413647,0
+514,1,0,1,1,0,0,0,0,0,0,44,f,White-European,no,no,United Kingdom,no,3,18 and more,Self,NO,0.34157899416540666,0
+515,1,1,1,1,1,0,1,1,1,1,30,f,White-European,no,no,United States,no,9,18 and more,Self,YES,0.007940116199906925,0
+516,1,1,1,1,1,1,0,1,1,1,42,m,White-European,no,no,Australia,no,9,18 and more,Self,YES,0.01247953168770569,0
+517,1,1,0,1,0,0,1,0,0,0,35,f,White-European,no,yes,United States,no,4,18 and more,Parent,NO,0.1202570883127275,0
+518,1,0,1,1,1,0,1,0,1,1,40,m,Black,no,no,AmericanSamoa,no,7,18 and more,Self,YES,0.27112207998459636,0
+519,0,1,0,0,0,0,0,0,1,1,50,f,?,no,no,New Zealand,no,3,18 and more,?,NO,0.2056199158597706,0
+520,0,0,1,1,0,0,0,0,0,1,38,m,Middle Eastern ,no,no,Egypt,no,3,18 and more,Self,NO,0.018583080459742954,0
+521,1,1,1,1,1,0,0,1,1,1,26,f,White-European,no,yes,Italy,no,8,18 and more,Self,YES,0.009038983408649878,0
+522,1,1,1,1,1,0,0,1,0,1,27,f,White-European,no,no,Malaysia,no,7,18 and more,Self,YES,0.011771192017813856,0
+523,1,1,1,1,1,0,1,0,1,0,47,f,White-European,yes,yes,United States,no,7,18 and more,Self,YES,0.10082414216225846,0
+524,1,1,0,1,1,1,0,0,0,1,21,m,Black,yes,yes,United States,no,6,18 and more,Parent,NO,0.15635027456124803,0
+525,1,1,1,1,0,1,0,1,1,1,37,m,White-European,no,no,United Kingdom,no,8,18 and more,Self,YES,0.047708935794194225,0
+526,1,0,0,0,0,0,1,1,0,1,19,f,Others,no,no,United Kingdom,no,4,18 and more,Self,NO,0.10091583326871548,0
+527,0,0,0,1,0,0,1,1,0,1,32,m,Asian,no,no,United Arab Emirates,no,4,18 and more,Self,NO,0.00026686598466507666,0
+528,0,0,0,0,1,0,0,1,0,1,26,f,?,no,no,Iran,no,3,18 and more,?,NO,0.7626311367195205,0
+529,1,1,1,1,1,1,1,1,1,1,46,f,White-European,yes,yes,Australia,no,10,18 and more,Self,YES,0.011886489783495616,0
+530,0,1,0,0,0,0,0,1,0,0,29,m,Black,no,no,France,no,2,18 and more,Self,NO,0.04262725280481312,0
+531,1,0,0,0,1,0,0,0,0,0,30,f,Black,no,no,France,no,2,18 and more,Self,NO,0.010552550843619248,0
+532,1,1,0,0,0,0,1,1,0,0,32,f,Latino,no,no,Bolivia,no,4,18 and more,Relative,NO,0.3543070583625334,0
+533,0,1,1,1,0,0,0,0,0,1,35,f,White-European,yes,no,United States,no,4,18 and more,Self,NO,0.0008475541761222661,0
+534,0,1,1,1,1,1,1,1,1,1,22,m,White-European,no,no,United Kingdom,no,9,18 and more,Self,YES,0.08591838502017654,0
+535,0,0,0,1,1,0,1,0,0,1,19,f,?,no,no,Iran,no,4,18 and more,?,NO,0.017706084695436306,0
+536,0,1,0,0,1,0,0,0,0,1,24,m,?,no,no,Iran,no,3,18 and more,?,NO,0.021036978922596674,0
+537,0,1,0,0,1,0,0,0,0,0,52,f,?,no,no,Iran,no,2,18 and more,?,NO,0.0027694127061392653,0
+538,0,1,0,0,1,1,0,0,1,1,52,m,?,no,no,Iran,no,5,18 and more,?,NO,0.01649480612574596,0
+539,1,0,1,0,0,1,0,1,0,0,32,f,White-European,no,no,United States,no,4,18 and more,Self,NO,0.06764065214895666,0
+540,0,1,1,1,1,1,0,0,0,1,24,m,White-European,no,no,United States,no,6,18 and more,Relative,NO,0.06298831627632327,0
+541,1,1,1,1,1,1,0,1,1,1,24,m,White-European,no,no,United States,no,9,18 and more,Relative,YES,0.028217444882401865,0
+542,0,1,0,0,0,0,0,0,0,0,49,f,Middle Eastern ,yes,no,New Zealand,no,1,18 and more,Parent,NO,0.15152010188683512,0
+543,0,1,1,1,1,1,1,1,1,1,30,f,Asian,no,no,Malaysia,no,9,18 and more,Self,YES,0.010067885683780952,0
+544,0,1,1,1,1,1,1,1,1,1,30,f,Asian,no,yes,Malaysia,yes,9,18 and more,Self,YES,0.31804137277498123,0
+545,1,0,1,1,1,1,1,1,1,1,35,f,White-European,yes,no,United Kingdom,no,9,18 and more,Self,YES,0.23744945031179793,0
+546,1,0,1,1,1,1,1,0,0,1,35,f,White-European,yes,no,United Kingdom,no,7,18 and more,Self,YES,0.01940462903253808,0
+547,1,0,1,1,0,0,0,0,0,1,37,f,White-European,no,yes,United Kingdom,no,4,18 and more,Self,NO,0.0727543971641902,0
+548,0,1,1,1,0,0,0,1,0,1,43,m,White-European,no,no,United Kingdom,no,5,18 and more,Self,NO,0.2769408398521237,0
+549,1,1,1,1,0,0,1,0,0,1,52,m,White-European,no,no,United Kingdom,no,6,18 and more,Self,NO,0.27894663881454745,0
+550,1,1,1,1,1,1,1,1,1,1,44,m,White-European,no,yes,United Kingdom,no,10,18 and more,Self,YES,0.005187246582433548,0
+551,1,1,0,0,0,0,0,0,0,0,46,f,White-European,no,yes,United Kingdom,no,2,18 and more,Self,NO,0.05953923861439966,0
+552,1,0,0,0,1,0,0,0,0,1,42,f,White-European,no,yes,Australia,no,3,18 and more,Self,NO,2.4179527282964314e-05,0
+553,0,0,1,0,0,0,0,0,0,0,20,m,Asian,no,no,Aruba,no,1,18 and more,Self,NO,0.05278468803081958,0
+554,1,1,1,0,1,0,1,0,1,1,18,m,Middle Eastern ,no,no,New Zealand,no,7,18 and more,Self,YES,0.008148616479574006,0
+555,1,1,1,1,1,1,0,1,1,1,38,m,White-European,no,no,Finland,no,9,18 and more,Relative,YES,0.043695311701841766,0
+556,1,0,0,1,1,0,0,1,0,0,24,f,Latino,no,yes,Mexico,no,4,18 and more,Self,NO,0.04182448377545432,0
+557,1,1,0,0,0,0,0,1,0,0,32,m,?,no,no,Jordan,no,3,18 and more,?,NO,0.07793057782988413,0
+558,1,1,0,1,1,0,0,0,0,0,29,m,Turkish,no,no,United States,no,4,18 and more,Self,NO,0.19443629762179818,0
+559,1,1,1,1,1,1,1,1,0,1,22,f,White-European,no,no,United States,no,9,18 and more,Self,YES,0.0006842605860272531,0
+560,0,1,1,1,1,1,0,0,0,1,19,f,White-European,yes,no,United Kingdom,no,6,18 and more,Self,NO,0.00956643807290512,0
+561,1,1,1,1,1,1,1,0,1,1,39,f,White-European,no,yes,United States,no,9,18 and more,Self,YES,0.10843950676777489,0
+562,1,0,0,1,1,1,1,1,1,1,17,m,Black,no,no,United States,no,8,18 and more,Self,YES,8.387364795786361e-05,0
+563,0,1,0,1,0,1,1,0,1,1,19,f,Middle Eastern ,no,no,Iceland,no,6,18 and more,Parent,NO,0.012863895515576507,0
+564,1,0,0,0,0,0,1,1,1,0,18,m,White-European,no,no,Australia,no,4,18 and more,Parent,NO,0.021937749949266172,0
+565,0,1,0,0,1,1,0,0,1,0,19,m,?,no,no,Kazakhstan,yes,4,18 and more,?,NO,0.008485648681334867,0
+566,0,1,0,0,0,0,0,1,0,0,28,f,Turkish,no,no,Turkey,no,2,18 and more,Self,NO,0.0042010800821706135,0
+567,0,1,0,1,0,1,0,0,0,1,29,m,Asian,no,no,New Zealand,no,4,18 and more,Self,NO,0.010535694870528491,0
+568,1,1,0,0,0,0,1,1,0,0,48,m,White-European,no,no,Australia,no,4,18 and more,Self,NO,5.060429586907988e-05,0
+569,1,1,1,1,1,1,0,1,1,1,27,f,White-European,yes,yes,Netherlands,no,9,18 and more,Self,YES,0.12223117007108453,0
+570,1,0,1,1,0,0,0,0,0,0,34,f,White-European,no,no,United Kingdom,no,3,18 and more,Self,NO,0.05207650799351986,0
+571,1,1,0,1,0,0,0,0,0,1,31,m,White-European,no,no,Australia,no,4,18 and more,Self,NO,0.19986740077394374,0
+572,1,0,0,0,0,0,0,1,0,1,47,m,?,no,no,Jordan,no,3,18 and more,?,NO,0.06563595175133553,0
+573,1,0,0,1,0,0,0,1,0,0,47,m,?,no,no,Jordan,no,3,18 and more,?,NO,0.24301689614930416,0
+574,1,1,1,1,1,1,1,1,1,1,44,m,White-European,no,yes,United Kingdom,no,10,18 and more,Self,YES,0.18626466404133207,0
+575,1,0,0,0,1,0,1,1,0,0,25,f,White-European,no,no,United States,no,4,18 and more,Self,NO,0.8222338956089079,0
+576,1,0,0,0,1,0,1,1,0,0,25,f,White-European,no,no,United States,no,4,18 and more,Self,NO,0.12060923826080942,0
+577,1,1,0,0,1,1,1,1,1,1,20,m,White-European,no,no,United Kingdom,no,8,18 and more,Self,YES,0.01732591447130897,0
+578,1,1,1,1,1,0,1,1,1,1,43,m,White-European,yes,no,New Zealand,no,9,18 and more,Self,YES,0.11867269118460362,0
+579,1,1,1,1,1,0,0,1,1,1,36,f,White-European,no,yes,United Kingdom,no,8,18 and more,Self,YES,0.027012282778213114,0
+580,1,1,0,0,0,0,0,1,0,0,30,f,Asian,no,yes,United States,no,3,18 and more,Self,NO,0.003953429339164863,0
+581,0,0,1,1,0,0,0,0,0,0,44,m,Black,no,no,United Kingdom,no,2,18 and more,Self,NO,0.38339266038552083,0
+582,1,1,0,0,1,0,0,0,0,1,40,f,Black,no,no,United Kingdom,no,4,18 and more,Parent,NO,0.0023123280932738225,0
+583,1,1,0,0,1,1,0,1,1,0,40,f,Black,yes,no,United Kingdom,no,6,18 and more,Relative,NO,0.0003178158149732372,0
+584,1,1,0,1,1,1,0,1,1,0,40,f,Black,yes,yes,United Kingdom,no,7,18 and more,Relative,YES,0.12138478220923714,0
+585,1,1,1,1,1,0,0,1,0,1,30,m,Others,no,no,United States,no,7,18 and more,Self,YES,0.0022129051690378716,0
+586,1,0,1,1,0,0,1,0,0,1,47,f,White-European,no,no,United Kingdom,no,5,18 and more,Self,NO,0.06479186668239623,0
+587,1,1,1,1,1,1,1,1,1,1,21,m,Black,no,no,Brazil,no,10,18 and more,Self,YES,0.07921688245791099,0
+588,1,1,1,1,1,1,0,1,1,1,21,m,Black,no,no,Brazil,no,9,18 and more,Self,YES,0.22290615693425303,0
+589,1,0,1,1,1,1,1,1,1,1,31,f,?,no,no,New Zealand,no,9,18 and more,?,YES,0.043386050605132384,0
+590,1,1,1,0,0,0,0,0,0,0,21,f,Asian,no,no,New Zealand,no,3,18 and more,Self,NO,5.503858510551038e-05,0
+591,0,1,1,1,0,0,0,1,1,0,29,f,Asian,no,no,United States,no,5,18 and more,Self,NO,0.06978045457468188,0
+592,0,1,1,1,1,0,1,0,1,0,22,m,Middle Eastern ,no,no,Afghanistan,no,6,18 and more,Self,NO,0.24478807719731868,0
+593,1,1,1,1,1,1,1,1,1,1,51,m,White-European,yes,no,United Kingdom,no,10,18 and more,Self,YES,0.0096569750491527,0
+594,1,0,0,0,0,0,0,0,0,0,23,m,?,no,no,Russia,no,1,18 and more,?,NO,0.08652037955668826,0
+595,1,0,0,0,1,0,0,0,1,1,30,m,Asian,no,no,India,no,4,18 and more,Self,NO,0.1205265551488169,0
+596,1,1,0,0,0,0,0,1,0,0,22,m,Others,no,no,India,no,3,18 and more,Self,NO,0.0004025348227882401,0
+597,1,1,0,0,0,0,0,1,0,1,22,m,Asian,no,no,New Zealand,no,4,18 and more,Self,NO,0.27832159519085825,0
+598,1,0,0,0,1,0,1,1,0,1,24,m,Asian,no,no,India,no,5,18 and more,Self,NO,0.07533124595290094,0
+599,1,0,0,0,0,0,0,1,0,1,26,f,South Asian,no,no,India,no,3,18 and more,Self,NO,0.012214829180702989,0
+600,1,0,1,1,0,0,0,1,1,1,33,f,Asian,no,no,India,no,6,18 and more,Parent,NO,0.03715939204882069,0
+601,1,0,0,0,0,0,0,1,1,0,23,m,Asian,no,no,India,no,3,18 and more,Self,NO,0.021247968450745093,0
+602,1,0,1,0,0,0,0,1,0,0,42,f,Asian,no,no,India,no,3,18 and more,Self,NO,0.09938352102921214,0
+603,1,0,1,0,0,0,0,0,0,0,26,f,Asian,no,no,India,no,2,18 and more,Self,NO,0.1795775895557679,0
+604,1,0,0,0,0,0,0,1,0,0,29,f,Asian,no,no,New Zealand,no,2,18 and more,Self,NO,0.03162389870442617,0
+605,1,0,0,0,0,0,1,0,0,1,35,f,Asian,no,no,India,no,3,18 and more,Self,NO,0.000122498869154679,0
+606,1,0,0,0,1,1,0,1,0,0,25,f,South Asian,no,no,India,no,4,18 and more,Self,NO,0.06780467518856947,0
+607,1,0,0,0,0,0,1,1,0,0,25,m,Asian,no,no,Sri Lanka,no,3,18 and more,Self,NO,0.16979043836369706,0
+608,0,0,0,0,0,0,0,1,0,0,28,f,Asian,yes,no,India,no,1,18 and more,Self,NO,0.38622461272795416,0
+609,1,0,0,0,0,0,0,0,0,0,33,m,White-European,no,no,Germany,no,1,18 and more,Self,NO,0.001160244134050641,0
+610,1,0,0,1,0,0,1,1,0,0,25,m,Asian,no,no,India,no,4,18 and more,Self,NO,0.3181052128662705,0
+611,0,0,1,0,1,1,0,1,0,1,25,m,Asian,no,no,India,no,5,18 and more,Self,NO,0.04957491303574087,0
+612,1,0,0,0,1,0,1,1,0,0,24,m,Asian,no,no,India,no,4,18 and more,Self,NO,0.12497858043787806,0
+613,1,1,1,1,0,0,0,0,0,1,27,f,South Asian,no,no,India,no,5,18 and more,Self,NO,0.0037770211680673827,0
+614,1,0,0,0,0,0,0,0,0,0,22,m,South Asian,no,no,India,no,1,18 and more,Self,NO,4.782672206830245e-08,0
+615,1,1,0,1,0,0,0,1,0,1,21,f,South Asian,no,no,India,no,5,18 and more,Self,NO,0.002286264167287939,0
+616,1,0,1,1,0,1,0,1,0,1,27,f,South Asian,no,no,India,no,6,18 and more,Self,NO,0.2739218176014212,0
+617,1,0,0,0,1,0,1,0,0,0,23,m,South Asian,no,no,India,no,3,18 and more,Self,NO,0.037274329700579846,0
+618,0,0,0,1,1,0,0,1,0,1,22,m,Asian,no,no,India,no,4,18 and more,Self,NO,0.03554174120399047,0
+619,0,1,0,0,0,0,0,0,0,1,23,f,South Asian,no,no,India,no,2,18 and more,Self,NO,0.2356135059761689,0
+620,1,0,0,1,0,0,0,1,0,1,30,m,Asian,no,no,India,no,4,18 and more,Self,NO,0.2162348304529338,0
+621,0,1,0,0,1,0,1,1,0,0,33,m,Asian,no,no,India,no,4,18 and more,Self,NO,0.33092717671518723,0
+622,1,0,1,1,1,0,1,1,1,0,24,f,South Asian,no,no,India,no,7,18 and more,Self,YES,0.012821518047910308,0
+623,1,0,0,0,1,0,1,1,0,0,22,f,Asian,no,no,New Zealand,no,4,18 and more,Self,NO,0.03674650743969899,0
+624,1,0,0,1,1,0,1,1,1,1,22,m,Asian,no,no,New Zealand,no,7,18 and more,Self,YES,0.18744974249201635,0
+625,1,0,0,0,0,0,0,1,0,1,29,f,South Asian,no,no,India,no,3,18 and more,Self,NO,0.0330986506492338,0
+626,1,0,1,0,1,0,1,1,0,1,22,f,Asian,no,no,India,no,6,18 and more,Self,NO,0.3581747592839076,0
+627,1,0,1,0,0,0,0,1,0,0,21,m,Asian,yes,no,India,no,3,18 and more,Self,NO,0.044449982517367245,0
+628,1,0,0,0,0,0,1,1,0,0,23,m,Asian,no,no,India,no,3,18 and more,Self,NO,0.26099587170090166,0
+629,1,0,0,0,1,0,1,1,0,1,23,f,Others,no,no,India,no,5,18 and more,Self,NO,0.32653615744833225,0
+630,1,0,0,0,1,0,1,1,1,1,23,f,Asian,no,no,India,no,6,18 and more,Self,NO,0.0003812784448687704,0
+631,1,1,0,1,1,0,1,1,0,0,32,m,Asian,no,no,Sri Lanka,no,6,18 and more,Self,NO,0.12773516418568373,0
+632,0,0,0,0,0,0,1,0,0,1,27,m,Asian,no,no,Sri Lanka,no,2,18 and more,Self,NO,0.20320553381201786,0
+633,0,0,1,0,0,0,0,1,0,0,28,f,Asian,no,no,India,no,2,18 and more,Parent,NO,0.005959526233867996,0
+634,1,1,0,0,1,0,0,1,1,1,25,f,Middle Eastern ,no,no,India,no,6,18 and more,Self,NO,0.18725924704137153,0
+635,1,0,1,0,1,0,1,1,1,1,22,m,Black,no,no,Nepal,no,7,18 and more,Self,YES,0.0866912248933001,0
+636,0,1,1,0,0,0,1,0,0,1,36,m,White-European,no,no,United Kingdom,no,4,18 and more,Self,NO,0.0020061319147800395,0
+637,0,0,0,0,0,0,0,0,0,0,27,f,?,no,no,Russia,no,0,18 and more,?,NO,0.4689593604255169,0
+638,1,1,1,1,1,1,1,1,1,1,21,f,White-European,no,no,Germany,no,10,18 and more,Self,YES,0.04020667943159288,0
+639,1,1,0,1,1,0,0,1,0,0,18,m,Black,no,no,United States,no,5,18 and more,Self,NO,0.22565185616990496,0
+640,1,0,0,0,1,1,1,1,1,1,49,m,Black,no,no,Mexico,no,7,18 and more,Parent,YES,0.00014785732647615288,0
+641,1,1,1,0,0,0,0,1,0,0,18,m,Asian,no,no,Indonesia,no,4,18 and more,Self,NO,0.379442021690428,0
+642,1,0,1,1,1,0,1,1,1,0,29,m,Latino,no,no,United States,no,7,18 and more,Self,YES,0.04560219228267244,0
+643,0,0,0,0,1,0,0,1,0,0,31,f,?,no,no,New Zealand,no,2,18 and more,?,NO,0.07326823827954895,0
+644,1,0,0,0,0,0,0,0,0,0,37,f,Middle Eastern ,no,no,New Zealand,no,1,18 and more,Parent,NO,0.015453885025502313,0
+645,1,0,1,1,1,0,0,1,0,1,17,m,Middle Eastern ,yes,no,New Zealand,no,6,18 and more,Parent,NO,0.002973587479307308,0
+646,1,0,1,1,0,0,1,1,1,1,17,m,?,no,yes,New Zealand,no,7,18 and more,?,YES,0.002042994565586465,0
+647,1,1,1,1,0,0,0,0,0,0,38,f,Middle Eastern ,no,no,Jordan,no,4,18 and more,Self,NO,0.001173343868625012,0
+648,1,0,1,0,0,1,0,1,0,1,18,m,White-European,yes,no,Angola,no,5,18 and more,Parent,NO,0.0005388106890945717,0
+649,1,0,1,1,1,0,0,0,0,0,31,f,Middle Eastern ,no,no,United Arab Emirates,no,4,18 and more,Self,NO,0.004349830137167929,0
+650,0,1,1,1,0,0,0,0,0,0,33,m,Middle Eastern ,yes,no,United Arab Emirates,yes,3,18 and more,Self,NO,0.11735298503397802,0
+651,1,1,0,0,0,0,0,0,0,0,32,f,Middle Eastern ,yes,no,Jordan,no,2,18 and more,Self,NO,0.006958908437001135,0
+652,1,0,0,0,0,0,1,0,0,1,30,m,?,yes,no,Jordan,no,3,18 and more,?,NO,0.06404127268013766,0
+653,0,0,0,0,0,0,0,0,0,1,33,f,?,no,no,United States,no,1,18 and more,?,NO,3.606621209410877e-05,0
+654,1,1,1,1,1,1,1,1,1,1,30,f,White-European,no,yes,Canada,no,10,18 and more,Self,YES,0.5587109760087655,0
+655,1,1,1,1,1,0,1,1,1,1,30,m,Asian,no,no,United States,no,9,18 and more,Self,YES,0.0005025395086484806,0
+656,1,0,0,1,1,0,1,0,0,1,38,f,White-European,no,yes,United Kingdom,no,5,18 and more,Self,NO,3.4492221808710906e-05,0
+657,1,0,0,0,1,0,1,0,1,1,22,m,Asian,no,no,India,no,5,18 and more,Self,NO,0.014127630574963856,0
+658,1,1,0,0,1,0,1,0,1,0,36,m,others,no,no,United States,no,5,18 and more,Self,NO,0.4105956203980072,0
+659,0,0,1,1,0,0,1,0,0,0,43,m,?,no,no,Azerbaijan,no,3,18 and more,?,NO,0.018765509072944355,0
+660,1,1,1,1,1,1,0,0,1,1,44,m,?,no,no,Pakistan,no,8,18 and more,?,YES,0.0003420657689087713,0
+661,1,1,1,0,1,1,0,1,1,1,20,f,White-European,no,no,France,no,8,18 and more,Self,YES,0.3310231346631145,0
+662,1,1,1,1,1,1,0,1,1,1,40,f,Others,yes,yes,Australia,no,9,18 and more,Self,YES,0.1594631230790764,0
+663,1,0,0,1,1,1,0,0,1,0,25,m,White-European,no,no,Italy,no,5,18 and more,Self,NO,8.618818060533395e-06,0
+664,1,0,0,0,0,0,1,1,0,1,28,m,White-European,no,no,Australia,no,4,18 and more,Self,NO,0.03627494638210039,0
+665,0,0,0,0,0,0,1,1,0,1,17,m,White-European,no,no,Canada,no,3,18 and more,Self,NO,0.013471630480911911,0
+666,1,1,1,1,1,1,1,0,1,1,34,m,White-European,no,no,United States,no,9,18 and more,Self,YES,8.605150162311821e-07,0
+667,0,0,0,0,0,0,0,1,0,0,56,m,?,no,no,Iraq,no,1,18 and more,?,NO,0.09953975415150543,0
+668,0,0,1,0,0,0,1,1,0,0,50,f,Middle Eastern ,no,no,New Zealand,no,3,18 and more,Parent,NO,0.016654909564663728,0
+669,1,0,0,0,0,0,1,1,0,1,38,m,White-European,no,no,United States,no,4,18 and more,Self,NO,0.009835823949223383,0
+670,1,1,1,1,1,1,1,1,1,1,47,m,White-European,no,no,United States,no,10,18 and more,Self,YES,0.011045794001919872,0
+671,1,1,1,1,1,0,1,1,1,1,30,m,Others,no,no,United States,no,9,18 and more,Self,YES,0.05895523242470526,0
+672,1,1,1,1,1,0,0,1,0,1,21,m,Hispanic,no,no,United States,no,7,18 and more,Self,YES,0.08947637957046767,0
+673,1,1,1,1,1,0,1,1,0,1,21,m,White-European,no,no,Ireland,no,8,18 and more,Self,YES,0.017528355043984235,0
+674,1,1,1,0,1,0,1,1,1,1,31,m,Latino,no,no,Mexico,no,8,18 and more,Self,YES,0.1599087295960638,0
+675,1,1,0,0,1,1,0,1,0,1,27,f,White-European,yes,no,Czech Republic,no,6,18 and more,Self,NO,0.04588406613143357,0
+676,1,1,1,1,0,0,0,0,1,0,24,f,White-European,yes,no,United States,no,5,18 and more,Self,NO,0.013598591382634936,0
+677,1,1,0,0,0,0,1,0,0,1,35,m,White-European,yes,no,United Kingdom,no,4,18 and more,Parent,NO,0.004719072060069668,0
+678,1,0,0,0,0,0,1,0,0,1,18,m,Black,no,no,Ethiopia,no,3,18 and more,Health care professional,NO,0.144786958141001,0
+679,1,1,1,1,1,0,0,1,1,1,43,f,Black,no,no,United States,no,8,18 and more,Self,YES,0.01864015517927041,0
+680,1,1,1,1,1,1,1,1,1,1,44,m,White-European,no,yes,Afghanistan,no,10,18 and more,Self,YES,0.1058271690949673,0
+681,1,1,1,1,1,1,1,1,1,1,40,m,White-European,yes,yes,United Kingdom,no,10,18 and more,Parent,YES,0.2372066803019289,0
+682,1,1,0,1,1,1,1,1,1,1,49,f,Hispanic,no,no,United States,no,9,18 and more,Self,YES,2.595971611824302e-06,0
+683,1,1,0,0,0,0,0,1,0,0,24,m,Hispanic,no,no,United States,no,3,18 and more,Self,NO,0.060156043642396816,0
+684,1,1,0,0,0,0,0,1,1,0,30,f,White-European,yes,yes,United States,no,4,18 and more,Self,NO,0.037892940051206025,0
+685,1,0,1,0,0,0,0,1,0,1,53,m,Hispanic,no,no,United States,no,4,18 and more,Relative,NO,0.030392757848695932,0
+686,1,0,1,1,1,0,0,1,1,1,38,m,White-European,no,yes,Belgium,no,7,18 and more,Self,YES,0.008493636613219283,0
+687,1,0,0,0,1,0,1,1,0,1,28,m,White-European,no,no,United States,no,5,18 and more,Self,NO,0.04127355148168095,0
+688,1,1,1,0,1,1,1,1,1,1,28,m,White-European,no,no,United States,no,9,18 and more,Self,YES,0.2847705078250405,0
+689,1,0,1,1,1,1,1,0,1,1,26,m,Black,no,no,Canada,no,8,18 and more,Self,YES,0.32261394634952845,0
+690,1,0,0,0,1,1,1,1,1,1,39,f,White-European,no,no,Canada,no,7,18 and more,Self,YES,0.009549916074310681,0
+691,0,0,0,0,1,0,0,0,0,0,31,f,Asian,yes,no,India,no,1,18 and more,Self,NO,0.12169164701955926,0
+692,1,0,0,1,0,0,1,1,0,0,24,m,Black,no,no,United States,no,4,18 and more,Self,NO,0.08000572504687438,0
+693,1,1,1,0,1,1,1,1,0,1,28,m,White-European,no,no,United States,no,8,18 and more,Self,YES,5.668029741387505e-07,0
+694,1,0,0,1,0,0,0,1,0,1,31,f,White-European,no,no,United Kingdom,no,4,18 and more,Self,NO,0.11296083995068991,0
+695,1,1,1,1,1,0,0,1,0,1,27,m,White-European,yes,no,United States,no,7,18 and more,Self,YES,0.27609538684634716,0
+696,1,0,1,1,0,0,1,1,0,0,28,m,Latino,no,no,Brazil,yes,5,18 and more,Parent,NO,0.17424779200303336,0
+697,1,1,1,1,1,1,0,1,1,1,31,m,Turkish,no,yes,Australia,no,9,18 and more,Self,YES,0.03371029986027278,0
+698,1,1,1,1,1,0,0,0,0,1,46,f,Asian,no,no,Philippines,no,6,18 and more,Self,NO,0.03757461709742424,0
+699,1,1,1,1,1,1,1,1,1,1,27,f,Pasifika,no,no,Australia,no,10,18 and more,Self,YES,0.14940726928820386,0
+700,0,1,0,1,1,0,1,1,1,1,25,f,White-European,no,no,Russia,no,7,18 and more,Self,YES,0.031671285217160824,0
+701,1,0,0,0,0,0,0,1,0,1,34,m,Hispanic,no,no,Mexico,no,3,18 and more,Parent,NO,0.0001733962529078806,0
+702,1,0,1,1,1,0,1,1,0,1,24,f,?,no,no,Russia,no,7,18 and more,?,YES,0.0122696376004373,0
+703,1,0,0,1,1,0,1,0,1,1,35,m,South Asian,no,no,Pakistan,no,6,18 and more,Self,NO,0.2387652613064156,0
+704,1,0,1,1,1,0,1,1,1,1,26,f,White-European,no,no,Cyprus,no,8,18 and more,Self,YES,0.007337554768728533,0
